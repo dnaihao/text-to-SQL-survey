@@ -16,18 +16,15 @@ dummy
 
 ## Concept Diagram
 
-<div align="center">
-<img src="imgs/text-to-SQL-framework.png" width="50%"/>
-<div style="width: 50%;">The framework for text-to-SQL systems. Given the database schema and user utterance, the system outputs a corresponding SQL query to query the database system for the result. Appendix B gives more text-to-SQL examples.</div>
-</div>
+|<img src="imgs/text-to-SQL-framework.png" width="50%"/>| 
+|:--:| 
+| The framework for text-to-SQL systems. Given the database schema and user utterance, the system outputs a corresponding SQL query to query the database system for the result. Appendix B gives more text-to-SQL examples.|
 
 
-<div align="center">
-<img src="imgs/text-to-SQL-topology.png" width="70%"/>
-<div style="width: 50%;">Topology for text-to-SQL. Format adapted from 
-<a href="https://arxiv.org/abs/2107.13586" target="_blank">Liu et al. (2021a)</a>
-</div>
-</div>
+
+| <img src="imgs/text-to-SQL-topology.png" width="70%"/>| 
+|:--:| 
+| Topology for text-to-SQL. Format adapted from <a href="https://arxiv.org/abs/2107.13586" target="_blank">Liu et al. (2021a)|
 
 
 ## Datasets
@@ -218,13 +215,15 @@ dummy
     <td>SQL template diversity</td>
     <td>Stack Exchange</td>
   </tr>
-</tbody>
-</table>
-<div align='center'>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+  <tr>
+    <td colspan=7>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
 pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
 know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
 specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
-respectively.</div>
+respectively.</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Methods
@@ -337,9 +336,12 @@ respectively.</div>
     <td class="tg-0pky">GAP (Shi et al., 2020a)</td>
     <td class="tg-dvpl">Spider</td>
   </tr>
+  <tr>
+    <td colspan=4>Methods used for encoding in text-to-SQL.</td>
+  </tr>
 </tbody>
 </table>
-<div align='center'>Methods used for encoding in text-to-SQL.</div>
+<div align='center'></div>
 
 ## Decoding
 
@@ -533,7 +535,7 @@ respectively.</div>
     <td>Spider</td>
     <td>Synthesizing information for decoding</td>
   </tr>
+  <tr><td colspan=5>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</td></tr>
 </tbody>
 </table>
-<div align='center'>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar,
-Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</div>
+<!-- <div align='center'></div> -->
