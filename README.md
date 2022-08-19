@@ -134,7 +134,7 @@ dummy
     <td class="tg-0pky" rowspan=5>Adapt PLM</td>
     <td class="tg-0pky">X-SQL (He et al., 2019)</td>
     <td class="tg-dvpl">WikiSQL</td>
-    <td class="tg-0pky" rowspan=8>Leverage external data to represent question and DB schemas</td>
+    <td class="tg-0pky" rowspan=8>Leveraging external data to represent question and DB schemas</td>
   </tr>
   <tr>
     <td class="tg-0pky">SQLova (Hwang et al., 2019)</td>
@@ -169,3 +169,196 @@ dummy
 </table>
 
 ## Decoding
+
+
+<table>
+<thead>
+  <tr>
+    <th>Methods</th>
+    <th></th>
+    <th>Adopted by</th>
+    <th>Applied datasets</th>
+    <th>Addressed challenges</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan=3>Tree-based</td>
+    <td></td>
+    <td>Seq2Tree (Dong and Lapata, 2016)</td>
+    <td>-</td>
+    <td rowspan=8>Hierarchical decoding</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Seq2AST (Yin and Neubig, 2017)</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>SyntaxSQLNet (Yu et al., 2018b)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td rowspan=4>Sketch-based</td>
+    <td></td>
+    <td>SQLNet (Xu et al., 2017)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>(Dong and Lapata, 2018)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IRNet (Guo et al., 2019)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>RYANSQL (Choi et al., 2021)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td>Bottom-up</td>
+    <td></td>
+    <td>SmBop (Rubin and Berant, 2021)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td rowspan=5>Attention Mechanism</td>
+    <td rowspan="2">Attention</td>
+    <td>Seq2Tree (Dong and Lapata, 2016)</td>
+    <td>-</td>
+    <td rowspan=9>Synthesizing information for decoding</td>
+  </tr>
+  <tr>
+    <td>Seq2SQL (Zhong et al., 2017)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Bi-attention</td>
+    <td>Guo and Gao (2018)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Structured attention</td>
+    <td>Wang et al. (2019)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Relation-aware Self-attention</td>
+    <td>DuoRAT (Scholak et al., 2021a)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td rowspan=4>Copy Mechanism</td>
+    <td></td>
+    <td>Seq2AST (Yin and Neubig, 2017)</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Seq2SQL (Zhong et al., 2017)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Wang et al. (2018a)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>SeqGenSQL (Li et al., 2020a)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td rowspan=6>Intermediate Representation</td>
+    <td></td>
+    <td>IncSQL (Shi et al., 2018)</td>
+    <td>WikiSQL</td>
+    <td rowspan=6>Brdiging the gap between natural language and SQL query</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IRNet (Guo et al., 2019)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Suhr et al. (2020)</td>
+    <td>Spider and others</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Herzig et al. (2021)</td>
+    <td>GeoQuery, ATIS, Scholar</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Gan et al. (2021c)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Brunner and Stockinger (2021)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td rowspan=11>Others</td>
+    <td rowspan=2>Constrained decoding</td>
+    <td>UniSAr (Dou et al., 2022)</td>
+    <td>WikiSQL, Spide and others</td>
+    <td rowspan=4>Fine-grained decoding</td>
+  </tr>
+  <tr>
+    <td>PICARD (Scholak et al., 2021b)</td>
+    <td>Spider, CoSQL</td>
+  </tr>
+  <tr>
+    <td rowspan=2>Execution-guided</td>
+    <td>SQLova (Hwang et al., 2019)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Wang et al. (2018b)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td rowspan=2>Discriminative re-ranking</td>
+    <td>Global-GCN Bogin et al. (2019b)</td>
+    <td>Spider</td>
+    <td rowspan="2">SQL Ranking</td>
+  </tr>
+  <tr>
+    <td>Kelkar et al. (2020)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td rowspan=3>Separate submodule</td>
+    <td>SQLNet (Xu et al., 2017)</td>
+    <td>WikiSQL</td>
+    <td rowspan=4>Easier decoding</td>
+  </tr>
+  <tr>
+    <td>Guo and Gao (2018)</td>
+    <td>WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Lee (2019)</td>
+    <td>Spider</td>
+  </tr>
+  <tr>
+    <td>BPE</td>
+    <td>Muller and Vlachos (2019)</td>
+    <td>Advising, ATIS, GeoQuery</td>
+  </tr>
+  <tr>
+    <td>Link gating</td>
+    <td>Chen et al. (2020b)</td>
+    <td>Spider</td>
+    <td>Synthesizing information for decoding</td>
+  </tr>
+</tbody>
+</table>
