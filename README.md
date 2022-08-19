@@ -18,13 +18,13 @@ dummy
 
 <div align="center">
 <img src="imgs/text-to-SQL-framework.png" width="50%"/>
-<div align="left" style="width: 50%;">The framework for text-to-SQL systems. Given the database schema and user utterance, the system outputs a corresponding SQL query to query the database system for the result. Appendix B gives more text-to-SQL examples.</div>
+<div style="width: 50%;">The framework for text-to-SQL systems. Given the database schema and user utterance, the system outputs a corresponding SQL query to query the database system for the result. Appendix B gives more text-to-SQL examples.</div>
 </div>
 
 
 <div align="center">
 <img src="imgs/text-to-SQL-topology.png" width="70%"/>
-<div align="left" style="width: 50%;">Topology for text-to-SQL. Format adapted from 
+<div style="width: 50%;">Topology for text-to-SQL. Format adapted from 
 <a href="https://arxiv.org/abs/2107.13586" target="_blank">Liu et al. (2021a)</a>
 </div>
 </div>
@@ -33,31 +33,203 @@ dummy
 ## Datasets
 
 
-| Datasets                                                   |  #Size | #DB #D     | #T/DB | Issues addressed                  | Sources for data                            |
-|------------------------------------------------------------|-------:|------------|------:|-----------------------------------|-----------------------------------------    |
-| Spider (Yu et al., 2018c)                                  | 10,181 | 200,138    |   5.1 | Domain generalization             | College courses, DabaseAnswers, WikiSQL     |
-| Spider-DK (Gan et al., 2021b)                              |    535 |     10     |   4.8 |          Domain knowledge         | Spider dev set                              |
-| Spiderutran (Zeng et al., 2020)                            | 15,023 | 200    138 |   5.1 |      Untranslatable questions     | Spider + 5,330 untranslatable questions     |
-| Spider-L (Lei et al., 2020)                                |  8,034 | 160        |   5.1 | Schema Unking                     | Spider train/dev                            |
-| SpiderSL (Taniguchi et al., 2021)                          |  1,034 |     10     |   4.8 | Schema linking                    | Spider dev set                              |
-| Spider-Syn (Gan et al., 2021a)                             |  8,034 | 160        |   5.1 |             Robustness            | Spider train/dev                            |
-| WikiSQL (Zhong et al., 2017)                               | 80,654 | 26,521     |     1 |             Data size             | Wikipedia                                   |
-| Squall (Shi et al., 2020b)                                 | 11,468 | 1,679      |     1 | Lexicon-level supervision         | WikiTableQuestions (Pasupat and Liang, 2015)|
-| KaggleDBQA (Lee et al., 2021)                              |    272 |         88 |   2.3 | Domain generalization             | Real web daabases                           |
-| ATIS (Price, 1990; Dahl et al., 1994)                      |  5,280 |         11 |    32 |                 -                 | FUght-booking                               |
-| GeoQuery (Zelle and Mooney, 1996)                          |    877 |         11 |     6 |                 -                 | US geography                                |
-| Scholar (Iyer et al., 2017)                                |    817 |         11 |     7 |                 -                 | Academic publications                       |
-| Academic (Li and Jagadish, 2014)                           |    196 |         11 |    15 |                 -                 | Microsoft Academic Search (MAS)             |
-| IMDB (Yaghmazadeh et al., 2017)                            |    131 |         11 |    16 |                 -                 | database Internet Movie Database            |
-| Yelp (Yaghmazadeh et al., 2017)                            |    128 |         11 |     7 |                 -                 | Yelp website                                |
-| Advising (Finegan-Dollak et al., 2018)                     |  3,898 |         11 |    10 |                 -                 | University of Michigan course               |
-| Restaurants (Tang and Mooney, 2000) (Popescu et al., 2003) |    378 |         11 |     3 |                 -                 | information Restaurants                     |
-| MIMICSQL (Wang et al., 2020d)                              | 10,000 |         11 |     5 |                 -                 | Healthcare domain                           |
-| SEDE (Hazoom et al., 2021)                                 | 12,023 |         11 |    29 |       SQL template diversity      | Stack Exchange                              |
+<table>
+<thead>
+  <tr>
+    <th>Datasets</th>
+    <th>#Size</th>
+    <th>#DB</th>
+    <th>#D</th>
+    <th>#T/DB</th>
+    <th>Issues addressed</th>
+    <th>Sources for data</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Spider (Yu et al., 2018c)</td>
+    <td>10,181</td>
+    <td>200</td>
+    <td>138</td>
+    <td>5.1</td>
+    <td>Domain generalization</td>
+    <td>College courses, DabaseAnswers, WikiSQL</td>
+  </tr>
+  <tr>
+    <td>Spider-DK (Gan et al., 2021b)</td>
+    <td>535</td>
+    <td>10</td>
+    <td>-</td>
+    <td>4.8</td>
+    <td>Domain knowledge</td>
+    <td>Spider dev set</td>
+  </tr>
+  <tr>
+    <td>Spiderutran (Zeng et al., 2020)</td>
+    <td>15,023</td>
+    <td>200</td>
+    <td>138</td>
+    <td>5.1</td>
+    <td>Untranslatable questions</td>
+    <td>Spider + 5,330 untranslatable questions</td>
+  </tr>
+  <tr>
+    <td>Spider-L (Lei et al., 2020)</td>
+    <td>8,034</td>
+    <td>160</td>
+    <td>-</td>
+    <td>5.1</td>
+    <td>Schema Unking</td>
+    <td>Spider train/dev</td>
+  </tr>
+  <tr>
+    <td>SpiderSL (Taniguchi et al., 2021)</td>
+    <td>1,034</td>
+    <td>10</td>
+    <td>-</td>
+    <td>4.8</td>
+    <td>Schema linking</td>
+    <td>Spider dev set</td>
+  </tr>
+  <tr>
+    <td>Spider-Syn (Gan et al., 2021a)</td>
+    <td>8,034</td>
+    <td>160</td>
+    <td>-</td>
+    <td>5.1</td>
+    <td>Robustness</td>
+    <td>Spider train/dev</td>
+  </tr>
+  <tr>
+    <td>WikiSQL (Zhong et al., 2017)</td>
+    <td>80,654</td>
+    <td>26,521</td>
+    <td>-</td>
+    <td>1</td>
+    <td>Data size</td>
+    <td>Wikipedia</td>
+  </tr>
+  <tr>
+    <td>Squall (Shi et al., 2020b)</td>
+    <td>11,468</td>
+    <td>1,679</td>
+    <td>-</td>
+    <td>1</td>
+    <td>Lexicon-level supervision</td>
+    <td>WikiTableQuestions (Pasupat and Liang, 2015)</td>
+  </tr>
+  <tr>
+    <td>KaggleDBQA (Lee et al., 2021)</td>
+    <td>272</td>
+    <td>8</td>
+    <td>8</td>
+    <td>2.3</td>
+    <td>Domain generalization</td>
+    <td>Real web daabases</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #000;">
+  <tr>
+    <td>ATIS (Price, 1990; Dahl et al., 1994)</td>
+    <td>5,280</td>
+    <td>1</td>
+    <td>1</td>
+    <td>32</td>
+    <td>-</td>
+    <td>FUght-booking</td>
+  </tr>
+  <tr>
+    <td>GeoQuery (Zelle and Mooney, 1996)</td>
+    <td>877</td>
+    <td>1</td>
+    <td>1</td>
+    <td>6</td>
+    <td>-</td>
+    <td>US geography</td>
+  </tr>
+  <tr>
+    <td>Scholar (Iyer et al., 2017)</td>
+    <td>817</td>
+    <td>1</td>
+    <td>1</td>
+    <td>7</td>
+    <td>-</td>
+    <td>Academic publications</td>
+  </tr>
+  <tr>
+    <td>Academic (Li and Jagadish, 2014)</td>
+    <td>196</td>
+    <td>1</td>
+    <td>1</td>
+    <td>15</td>
+    <td>-</td>
+    <td>Microsoft Academic Search (MAS)</td>
+  </tr>
+  <tr>
+    <td>IMDB (Yaghmazadeh et al., 2017)</td>
+    <td>131</td>
+    <td>1</td>
+    <td>1</td>
+    <td>16</td>
+    <td>-</td>
+    <td>database Internet Movie Database</td>
+  </tr>
+  <tr>
+    <td>Yelp (Yaghmazadeh et al., 2017)</td>
+    <td>128</td>
+    <td>1</td>
+    <td>1</td>
+    <td>7</td>
+    <td>-</td>
+    <td>Yelp website</td>
+  </tr>
+  <tr>
+    <td>Advising (Finegan-Dollak et al., 2018)</td>
+    <td>3,898</td>
+    <td>1</td>
+    <td>1</td>
+    <td>10</td>
+    <td>-</td>
+    <td>University of Michigan course</td>
+  </tr>
+  <tr>
+    <td>Restaurants (Tang and Mooney, 2000) (Popescu et al., 2003)</td>
+    <td>378</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>-</td>
+    <td>information Restaurants</td>
+  </tr>
+  <tr>
+    <td>MIMICSQL (Wang et al., 2020d)</td>
+    <td>10,000</td>
+    <td>1</td>
+    <td>1</td>
+    <td>5</td>
+    <td>-</td>
+    <td>Healthcare domain</td>
+  </tr>
+  <tr>
+    <td>SEDE (Hazoom et al., 2021)</td>
+    <td>12,023</td>
+    <td>1</td>
+    <td>1</td>
+    <td>29</td>
+    <td>SQL template diversity</td>
+    <td>Stack Exchange</td>
+  </tr>
+</tbody>
+</table>
+<div>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
+know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
+specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
+respectively.</div>
 
 
-## Encoding
+## Methods
 
+### Encoding
 
 <table class="tg">
 <thead>
@@ -167,6 +339,7 @@ dummy
   </tr>
 </tbody>
 </table>
+<div>Methods used for encoding in text-to-SQL.</div>
 
 ## Decoding
 
