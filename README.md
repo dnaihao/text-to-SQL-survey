@@ -220,7 +220,7 @@ dummy
   </tr>
 </tbody>
 </table>
-<div>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+<div align='center'>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
 pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
 know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
 specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
@@ -339,7 +339,7 @@ respectively.</div>
   </tr>
 </tbody>
 </table>
-<div>Methods used for encoding in text-to-SQL.</div>
+<div align='center'>Methods used for encoding in text-to-SQL.</div>
 
 ## Decoding
 
@@ -461,7 +461,7 @@ respectively.</div>
   <tr>
     <td></td>
     <td>Suhr et al. (2020)</td>
-    <td>Spider and others</td>
+    <td>Spider and others♠</td>
   </tr>
   <tr>
     <td></td>
@@ -482,7 +482,7 @@ respectively.</div>
     <td rowspan=11>Others</td>
     <td rowspan=2>Constrained decoding</td>
     <td>UniSAr (Dou et al., 2022)</td>
-    <td>WikiSQL, Spide and others</td>
+    <td>WikiSQL, Spide and others♡</td>
     <td rowspan=4>Fine-grained decoding</td>
   </tr>
   <tr>
@@ -535,3 +535,5 @@ respectively.</div>
   </tr>
 </tbody>
 </table>
+<div align='center'>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar,
+Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</div>
