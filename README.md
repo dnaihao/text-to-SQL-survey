@@ -57,27 +57,123 @@ dummy
 
 
 ## Encoding
-| Methods           | Adopted by                       | Applied datasets   | Addressed challenges                                                                  |
-|-------------------|----------------------------------|-------------------:|---------------------------------------------------------------------------------------|
-| Encode token type | TypeSQL (Yu et al., 2018a)       |            WikiSQL | Representing question meaning                                                         |
-|                   | GNN (Bogin et al., 2019a)        | Spider             |                                                                                       |
-| ^^                | Global-GCN (Bogin et al., 2019b) | Spider             |                                                                                       |
-| ^^                | IGSQL (Cai and Wan, 2020)        |       Sparc, CoSQL |                                                                                       |
-| ^^                | RAT-SQL (Wang et al., 2020a)     | Spider             |                                                                                       |
-| ^^  Graph-based   | LEGSQL (Cao et al., 2021)        | Spider             | (1)    Representing question and DB schemas in a structured way (2)    Schema linking |
-| ^^                | SADGA (Cai et al., 2021)         | Spider             |                                                                                       |
-| ^^                | ShawdowGNN (Chen et al., 2021b)  | Spider             |                                                                                       |
-| ^^                | S2SQL (Hui et al., 2022)         | Spider, Spider-Syn |                                                                                       |
-|                   | X-SQL (He et al., 2019)          |            WikiSQL |                                                                                       |
-| ^^                | SQLova (Hwang et al., 2019)      |            WikiSQL |                                                                                       |
-| ^^ Self-attention | RAT-SQL (Wang et al., 2020a)     | Spider             |                                                                                       |
-| ^^                | DuoRAT (Scholak et al., 2021a)   | Spider             |                                                                                       |
-| ^^                | UnifiedSKG (Xie et al., 2022)    | WikiSQL, Spider    |                                                                                       |
-|                   | X-SQL (He et al., 2019)          |            WikiSQL |                                                                                       |
-| ^^                | SQLova (Hwang et al., 2019)      |            WikiSQL |                                                                                       |
-| ^^ Adapt PLM      | Guo and Gao (2019)               |            WikiSQL | Leverage external data to represent question and DB schemas                           |
-| ^^                | HydraNet (Lyu et al., 2020)      |            WikiSQL |                                                                                       |
-| ^^                | Liu et al. (2021b), etc          |   Spider-L, SQUALL |                                                                                       |
-| Pre-training      | TaBERT (Yin et al., 2020)        | Spider             |                                                                                       |
-| ^^                | GraPPA (Yu et al., 2021)         | Spider             |                                                                                       |
-| ^^                | GAP (Shi et al., 2020a)          | Spider             |                                                                                       |
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Methods</th>
+    <th class="tg-0pky">Adopted by</th>
+    <th class="tg-dvpl">Applied datasets</th>
+    <th class="tg-0pky">Addressed challenges</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Encode token type</td>
+    <td class="tg-0pky">TypeSQL (Yu et al., 2018a)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+    <td class="tg-0pky">Representing question meaning</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan=8>Graph-based</td>
+    <td class="tg-0pky">GNN (Bogin et al., 2019a)</td>
+    <td class="tg-dvpl">Spider</td>
+    <td class="tg-0pky" rowspan=13>(1)    Representing question and DB schemas in a structured way (2)    Schema linking</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Global-GCN (Bogin et al., 2019b)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">IGSQL (Cai and Wan, 2020)</td>
+    <td class="tg-dvpl">Sparc, CoSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">RAT-SQL (Wang et al., 2020a)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">LEGSQL (Cao et al., 2021)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">SADGA (Cai et al., 2021)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">ShawdowGNN (Chen et al., 2021b)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">S2SQL (Hui et al., 2022)</td>
+    <td class="tg-dvpl">Spider, Spider-Syn</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan=5>Self-attention</td>
+    <td class="tg-0pky">X-SQL (He et al., 2019)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">SQLova (Hwang et al., 2019)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">RAT-SQL (Wang et al., 2020a)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">DuoRAT (Scholak et al., 2021a)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">UnifiedSKG (Xie et al., 2022)</td>
+    <td class="tg-dvpl">WikiSQL, Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan=5>Adapt PLM</td>
+    <td class="tg-0pky">X-SQL (He et al., 2019)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+    <td class="tg-0pky" rowspan=8>Leverage external data to represent question and DB schemas</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">SQLova (Hwang et al., 2019)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Guo and Gao (2019)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">HydraNet (Lyu et al., 2020)</td>
+    <td class="tg-dvpl">WikiSQL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Liu et al. (2021b), etc</td>
+    <td class="tg-dvpl">Spider-L, SQUALL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan=3>Pre-training</td>
+    <td class="tg-0pky">TaBERT (Yin et al., 2020)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">GraPPA (Yu et al., 2021)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">GAP (Shi et al., 2020a)</td>
+    <td class="tg-dvpl">Spider</td>
+  </tr>
+</tbody>
+</table>
+
+## Decoding
