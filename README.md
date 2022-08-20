@@ -1,7 +1,7 @@
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
-  <table>
-    <table>
+  <table align=center>
+    <table align=center>
       <tr>
         <td>
             <span style="font-size:24px"><a href="https://dnaihao.github.io">Naihao Deng</a></span>   
@@ -14,7 +14,7 @@
         </td>
       </tr>
     </table>
-    <table>
+    <table align=center>
       <tr>
         <td>
             <span style="font-size:24px"><a href=''>[Paper]</a></span>
