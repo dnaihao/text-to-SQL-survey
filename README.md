@@ -30,6 +30,7 @@ dummy
 ## Datasets
 
 
+
 <table>
 <thead>
   <tr>
@@ -45,178 +46,178 @@ dummy
 <tbody>
   <tr>
     <td>Spider (Yu et al., 2018c)</td>
-    <td>10,181</td>
-    <td>200</td>
-    <td>138</td>
-    <td>5.1</td>
+    <td align='right'>10,181</td>
+    <td align='right'>200</td>
+    <td align='right'>138</td>
+    <td align='right'>5.1</td>
     <td>Domain generalization</td>
     <td>College courses, DabaseAnswers, WikiSQL</td>
   </tr>
   <tr>
     <td>Spider-DK (Gan et al., 2021b)</td>
-    <td>535</td>
-    <td>10</td>
-    <td>-</td>
-    <td>4.8</td>
+    <td align='right'>535</td>
+    <td align='right'>10</td>
+    <td align='right'>-</td>
+    <td align='right'>4.8</td>
     <td>Domain knowledge</td>
     <td>Spider dev set</td>
   </tr>
   <tr>
     <td>Spiderutran (Zeng et al., 2020)</td>
-    <td>15,023</td>
-    <td>200</td>
-    <td>138</td>
-    <td>5.1</td>
+    <td align='right'>15,023</td>
+    <td align='right'>200</td>
+    <td align='right'>138</td>
+    <td align='right'>5.1</td>
     <td>Untranslatable questions</td>
     <td>Spider + 5,330 untranslatable questions</td>
   </tr>
   <tr>
     <td>Spider-L (Lei et al., 2020)</td>
-    <td>8,034</td>
-    <td>160</td>
-    <td>-</td>
-    <td>5.1</td>
+    <td align='right'>8,034</td>
+    <td align='right'>160</td>
+    <td align='right'>-</td>
+    <td align='right'>5.1</td>
     <td>Schema Unking</td>
     <td>Spider train/dev</td>
   </tr>
   <tr>
     <td>SpiderSL (Taniguchi et al., 2021)</td>
-    <td>1,034</td>
-    <td>10</td>
-    <td>-</td>
-    <td>4.8</td>
+    <td align='right'>1,034</td>
+    <td align='right'>10</td>
+    <td align='right'>-</td>
+    <td align='right'>4.8</td>
     <td>Schema linking</td>
     <td>Spider dev set</td>
   </tr>
   <tr>
     <td>Spider-Syn (Gan et al., 2021a)</td>
-    <td>8,034</td>
-    <td>160</td>
-    <td>-</td>
-    <td>5.1</td>
+    <td align='right'>8,034</td>
+    <td align='right'>160</td>
+    <td align='right'>-</td>
+    <td align='right'>5.1</td>
     <td>Robustness</td>
     <td>Spider train/dev</td>
   </tr>
   <tr>
     <td>WikiSQL (Zhong et al., 2017)</td>
-    <td>80,654</td>
-    <td>26,521</td>
-    <td>-</td>
-    <td>1</td>
+    <td align='right'>80,654</td>
+    <td align='right'>26,521</td>
+    <td align='right'>-</td>
+    <td align='right'>1</td>
     <td>Data size</td>
     <td>Wikipedia</td>
   </tr>
   <tr>
     <td>Squall (Shi et al., 2020b)</td>
-    <td>11,468</td>
-    <td>1,679</td>
-    <td>-</td>
-    <td>1</td>
+    <td align='right'>11,468</td>
+    <td align='right'>1,679</td>
+    <td align='right'>-</td>
+    <td align='right'>1</td>
     <td>Lexicon-level supervision</td>
     <td>WikiTableQuestions (Pasupat and Liang, 2015)</td>
   </tr>
   <tr>
     <td>KaggleDBQA (Lee et al., 2021)</td>
-    <td>272</td>
-    <td>8</td>
-    <td>8</td>
-    <td>2.3</td>
+    <td align='right'>272</td>
+    <td align='right'>8</td>
+    <td align='right'>8</td>
+    <td align='right'>2.3</td>
     <td>Domain generalization</td>
     <td>Real web daabases</td>
   </tr>
   <tr style="border-bottom: 1px solid #000;">
   <tr>
     <td>ATIS (Price, 1990; Dahl et al., 1994)</td>
-    <td>5,280</td>
-    <td>1</td>
-    <td>1</td>
-    <td>32</td>
+    <td align='right'>5,280</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>32</td>
     <td>-</td>
     <td>FUght-booking</td>
   </tr>
   <tr>
     <td>GeoQuery (Zelle and Mooney, 1996)</td>
-    <td>877</td>
-    <td>1</td>
-    <td>1</td>
-    <td>6</td>
+    <td align='right'>877</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>6</td>
     <td>-</td>
     <td>US geography</td>
   </tr>
   <tr>
     <td>Scholar (Iyer et al., 2017)</td>
-    <td>817</td>
-    <td>1</td>
-    <td>1</td>
-    <td>7</td>
+    <td align='right'>817</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>7</td>
     <td>-</td>
     <td>Academic publications</td>
   </tr>
   <tr>
     <td>Academic (Li and Jagadish, 2014)</td>
-    <td>196</td>
-    <td>1</td>
-    <td>1</td>
-    <td>15</td>
+    <td align='right'>196</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>15</td>
     <td>-</td>
     <td>Microsoft Academic Search (MAS)</td>
   </tr>
   <tr>
     <td>IMDB (Yaghmazadeh et al., 2017)</td>
-    <td>131</td>
-    <td>1</td>
-    <td>1</td>
-    <td>16</td>
+    <td align='right'>131</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>16</td>
     <td>-</td>
     <td>database Internet Movie Database</td>
   </tr>
   <tr>
     <td>Yelp (Yaghmazadeh et al., 2017)</td>
-    <td>128</td>
-    <td>1</td>
-    <td>1</td>
-    <td>7</td>
+    <td align='right'>128</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>7</td>
     <td>-</td>
     <td>Yelp website</td>
   </tr>
   <tr>
     <td>Advising (Finegan-Dollak et al., 2018)</td>
-    <td>3,898</td>
-    <td>1</td>
-    <td>1</td>
-    <td>10</td>
+    <td align='right'>3,898</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>10</td>
     <td>-</td>
     <td>University of Michigan course</td>
   </tr>
   <tr>
     <td>Restaurants (Tang and Mooney, 2000) (Popescu et al., 2003)</td>
-    <td>378</td>
-    <td>1</td>
-    <td>1</td>
-    <td>3</td>
+    <td align='right'>378</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>3</td>
     <td>-</td>
     <td>information Restaurants</td>
   </tr>
   <tr>
     <td>MIMICSQL (Wang et al., 2020d)</td>
-    <td>10,000</td>
-    <td>1</td>
-    <td>1</td>
-    <td>5</td>
+    <td align='right'>10,000</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>5</td>
     <td>-</td>
     <td>Healthcare domain</td>
   </tr>
   <tr>
     <td>SEDE (Hazoom et al., 2021)</td>
-    <td>12,023</td>
-    <td>1</td>
-    <td>1</td>
-    <td>29</td>
+    <td align='right'>12,023</td>
+    <td align='right'>1</td>
+    <td align='right'>1</td>
+    <td align='right'>29</td>
     <td>SQL template diversity</td>
     <td>Stack Exchange</td>
   </tr>
   <tr>
-    <td colspan=7>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+    <td colspan=7 align='center'>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
 pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
 know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
 specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
@@ -225,8 +226,56 @@ respectively.</td>
 </tbody>
 </table>
 
+### Other relevant datasets
+
+* Chinest text-to-SQL: 
+  * CSpider (Min et al., 2019a)
+  * TableQA (Sun et al., 2020)
+  * DuSQL (Wang et al., 2020c)
+  * ESQL (Chen et al., 2021a)
+* Vietnamese text-to-SQL: ViText2SQL (Tuan Nguyen et al., 2020)
+* Portuguese text-to-SQL: (José and Cozman, 2021)
+* Multi-turn context-dependent text-to-SQL:
+  * ATIS (Price, 1990) (Dahl et al., 1994)
+  * Sparc (Yu et al., 2019b)
+  * CoSQL (Yu et al., 2019a)
+* Unanswerable questions: TriageSQL (Zhang et al., 2020)
+
+
+### Resources
+
+* [This Github Repo](https://github.com/jkkummerfeld/text2sql-data) holds data for many of the single domain datasets including Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp; as well as cross-domain datasets including Spider and WikiSQL. The Github Repo is the official repo for [This paper](https://aclanthology.org/P18-1033/), and their methods of processding the data is described in the paper as well.
+
+* [The official Spider leaderboard](https://yale-lily.github.io/spider) shows the performance of models on Spider dev and the hidden test set.
+
+* [The official WikiSQL Github Repo](https://github.com/salesforce/WikiSQL) holds leaderboard for models on WikiSQL dataset.
+
+
+<!-- Note of jonanthan's data; note of wikisql and spider leaderboard -->
+
 
 ## Methods
+
+### Data Augmentation
+
+* Typical effects:
+  * Handle complex or unseen questions (Zhong et al., 2020b; Wang et al., 2021b)
+  * Achieve state-of-the-art with less supervised data (Guo et al., 2018)
+  * Attain robustness towards different types of questions (Radhakrishnan et al., 2020)
+
+* Data generation methods:
+  * (Iyer et al., 2017)
+  * (Li et al., 2020a)
+
+* Quality control of the generated data:
+  * (Zhong et al., 2020b)
+  * (Wu et al., 2021)
+
+* Diversify the generated data:
+  * (Guo et al., 2018)
+  * (Radhakrishnan et al., 2020)
+  * (Wang et al. 2021b)
+
 
 ### Encoding
 
@@ -337,11 +386,10 @@ respectively.</td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td colspan=4>Methods used for encoding in text-to-SQL.</td>
+    <td colspan=4 align='center'>Methods used for encoding in text-to-SQL.</td>
   </tr>
 </tbody>
 </table>
-<div align='center'></div>
 
 ## Decoding
 
@@ -535,7 +583,245 @@ respectively.</td>
     <td>Spider</td>
     <td>Synthesizing information for decoding</td>
   </tr>
-  <tr><td colspan=5>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</td></tr>
+  <tr><td colspan=5 align='center'>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</td></tr>
 </tbody>
 </table>
-<!-- <div align='center'></div> -->
+
+### Learning Techniques
+
+* Fully supervised
+  * Active learning (Ni et al., 2020)
+  * Interactive/Imitation learning (Yao et al., 2019) (Yao et al., 2020)
+  * Meta-learning (Huang et al., 2018) (Wang et al., 2021a) (Chen et al., 2021a)
+  * Multi-task learning (Chang et al., 2020) (Xuan et al., 2021) (Hui et al., 2021b) (Shi et al., 2021) (McCann et al., 2018) (Xie et al., 2022)
+
+* Weakly supervised
+  * Reinforcement learning (Zhong et al., 2017) (Liang et al., 2018)
+  * Meta-learning and Bayesian optimization (Agarwal et al., 2019)
+  * (Min et al., 2019b)
+
+
+### Miscellaneous
+
+* DB linking:
+  * (Lin et al., 2020)
+  * (Ma et al., 2020)
+* Model-wise:
+  * (Finegan-Dollak et al., 2018)
+  * (Shaw et al., 2021)
+  * (Yan et al., 2020)
+  * (Xu et al., 2021)
+* SQL generation:
+  * (Shi et al., 2018)
+  * (Brunner and Stockinger, 2021)
+
+For context-dependent text-to-SQL:
+* Turn-level encoder and copy mechanism (Suhr et al., 2018) (Zhang et al., 2019) (Wang et al., 2020b)
+* Constrained decoding (Wang et al., 2020b)
+* Dynamic memory decay mechanism (Hui et al., 2021a)
+* (Zheng et al., 2022)
+
+
+## Evaluation
+
+### Metrics
+
+<table>
+<thead>
+  <tr>
+    <th>Metrics</th>
+    <th>Datasets</th>
+    <th>Errors</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Naiive Execution Accuracy</td>
+    <td>GeoQuery, IMDB, Yelp, WikiSQL, etc</td>
+    <td>False positive</td>
+  </tr>
+  <tr>
+    <td>Exact String Match</td>
+    <td>Advising, WikiSQL, etc</td>
+    <td>False negative</td>
+  </tr>
+  <tr>
+    <td>Exact Set Match</td>
+    <td>Spider</td>
+    <td>False negative</td>
+  </tr>
+  <tr>
+    <td>Test Suite Accuracy (execution accuracy with generated databases)</td>
+    <td>Spider, GeoQuery, etc</td>
+    <td>False positive</td>
+  </tr>
+  <tr>
+    <td colspan=3 align='center'>The summary of metrics, datasets that use these metrics, and their potential error cases.</td>
+  </tr>
+</tbody>
+</table>
+
+### Evaluation Setup
+* Question split: split the question-SQL pairs randomly (Iyer et al., 2017).
+* SQL query split: no SQL query is allowed to appear in more than one set among the train, dev, and test sets (Finegan-Dollak et al., 2018)
+* Database split: databases in the test set do not appear in the training time (Yu et al., 2018c)
+* Others (Shaw et al., 2021) (Chang et al., 2020)
+
+## Discussion and Future Directions
+
+* Cross-domain text-to-SQL: incorporate domain knowledge to models trained on the existing datasets, and deploy such models efficiently on different domains.
+
+* Real-world use cases:
+  * Handle corrupted tables or scenarios where no table is provided.
+  * Handle user inputs different from the existing datasets.
+  * Facilitate DB administrator to manage DB schemas, updating DB content.
+  * Multi-lingual text-to-SQL.
+  * DB interface for the disabled.
+
+* Integrated into a larger scope of research:
+  * QA system for DB.
+  * Dialogue system with knowledge from DB.
+  * Explore the inter-relation between SQL and other logical forms.
+  * Generalized semantic parsing.
+
+* Others:
+  * Apply prompt learning to text-to-SQL: how to make the system robust.
+  * Evalulation of the existing text-to-SQL systems.
+
+
+## Text-to-SQL examples
+
+### Example of the table in the database
+
+The domain for Restaurant dataset is restaurant information, where questions are typically about food type, restaurant location, etc.
+
+There is a big difference in terms of how many tables a database has. For restaurants, there are 3
+tables in the database, while there are 32 tables in ATIS (Suhr et al., 2020).
+
+<table>
+<thead>
+  <tr>
+    <th>CITY.NAME*</th>
+    <th>COUNTY</th>
+    <th>REGION</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>VARCHAR(255)</td>
+    <td>VARCHAR(255)</td>
+    <td>VARCHAR(255)</td>
+  </tr>
+  <tr>
+    <td>Alameda</td>
+    <td>Alameda County</td>
+    <td>Bay Area</td>
+  </tr>
+  <tr>
+    <td>Alamo</td>
+    <td>Contra Costa County</td>
+    <td>Bay Area</td>
+  </tr>
+  <tr>
+    <td>Albany</td>
+    <td>Alameda County</td>
+    <td>Bay Area</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td colspan=3>Geography, one of the 3 tables in Restaurants database. * denotes the primary key of this table. We only include 3 rows for demonstration purpose.</td>
+  </tr>
+</tbody>
+</table>
+
+### Domain Knowledge
+
+*Question*: 
+```
+Will undergrads be okay to take 581 ?
+```
+
+*SQL query*:
+```sql
+SELECT DISTINCT T1.ADVISORY_REQUIREMENT , T1.ENFORCED_REQUIREMENT , T1.NAME FROM COURSE AS T1 WHERE T1.DEPARTMENT = "EECS" AND T1.NUMBER = 581 ;
+```
+
+In Advising dataset, Department “EECS” is considered as domain knowledge where “581” in the
+utterance means a course in “EECS” department with course number “581”.
+
+### Dataset Convention
+
+*Question*: 
+```
+Give me some restaurants in alameda ?
+```
+
+*SQL query*:
+```sql
+SELECT T1.HOUSE_NUMBER , T2.NAME FROM LOCATION AS T1 , RESTAURANT AS T2 WHERE T1.CITY_NAME = "alameda" AND T2.ID = T1.RESTAURANT_ID ;
+```
+
+In Restaurants dataset, when the user queries “restaurants”, by dataset convention, the corresponding SQL query returns the column “HOUSE_NUMBER” and “NAME”.
+
+
+### Text-to-SQL Templates
+
+An example of the template for text-to-SQL pair used by (Iyer et al., 2017) is as follows:
+
+*Question template*: 
+```
+Get all <ENT1>.<NAME> having <ENT2>.<COL1>.<NAME> as <ENT2>.<COL1>.<TYPE>
+```
+
+*SQL query template*:
+
+```sql
+SELECT <ENT1>.<DEF> FROM JOIN_FROM(<ENT1>, <ENT2>) WHERE JOIN_WHERE(<ENT1>, <ENT2>) AND <ENT2>.<COL1> = <ENT2>.<COL1>.<TYPE> ;
+```
+
+*Generated question*: 
+```
+Get all author having dataset as DATASET_TYPE
+```
+
+*Generated SQL query*:
+```sql
+SELECT author.authorId FROM author , writes , paper , paperDataset , dataset WHERE author. authorId = writes.authorId AND writes.paperId = paper.paperId AND paper.paperId = paperDataset.paperId AND paperDataset.datasetId = dataset. datasetId AND dataset.datasetName = DATASET_TYPE
+``` 
+, where they populate the slots in the templates with table and column names from the database schema, as well as join the corresponding tables accordingly.
+
+(Iyer et al., 2017) also uses PPDB (Ganitkevitch et al., 2013) to paraphrase the NL. An example of PPDB paraphrasing is `thrown into jail` and `imprisoned`.
+
+[This Github Repo](https://github.com/jkkummerfeld/text2sql-data) also holds NL-SQL templates for Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp, where they mask the corresponding entities in the NL-SQL pairs.
+
+### Complexity of NL-SQL pairs
+
+(Yu et al., 2018c) defines the SQL hardness as the number of SQL components. The SQL query is harder when it contains more SQL keywords such as `GROUP BY` and nested subqueries. Here are some examples from the original paper:
+
+*Easy*:
+```sql
+SELECT COUNT(*) FROM cars_data WHERE cylinders > 4
+```
+
+*Medium*:
+```sql
+SELECT T2.name, COUNT(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id = T2.stadium_id GROUP BY T1.stadium_id
+```
+
+*Hard*:
+```sql
+SELECT T1.country_name FROM countries AS T1 JOIN continents AS T2 ON T1.continent = T2.cont_id JOIN car_makers AS T3 ON T1.country_id = T3. country WHERE T2.continent = ’Europe’ GROUP BY T1.country_name HAVING COUNT(*) >= 3
+```
+
+*Extra Hard*:
+```sql
+SELECT AVG(life_expectancy) FROM country WHERE name NOT IN (SELECT T1.name FROM country AS T1 JOIN country_language AS T2 ON T1.code = T2.country_code WHERE T2.language = "English" AND T2.is_official = "T")
+```
+
+There is no qualitative measure of how hard the NL is. Intuitively, models’ performance can decrease when faced with longer questions from users. However, the information conveyed in longer sentences can be more complete, while there can be ambiguity in shorter sentences. Besides, there can be domain-specific phrases that confuse the model in both short and long utterances (Suhr et al., 2020). Thus, researchers need to consider various perspectives to determine the complexity of natural utterance.
+
+
