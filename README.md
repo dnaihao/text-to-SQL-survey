@@ -24,7 +24,7 @@ dummy
 
 | <img src="imgs/text-to-SQL-topology.png" width="70%"/>| 
 |:--:| 
-| Topology for text-to-SQL. Format adapted from <a href="https://arxiv.org/abs/2107.13586" target="_blank">Liu et al. (2021a)|
+| Topology for text-to-SQL. Format adapted from <a href="https://arxiv.org/abs/2107.13586" target="_blank">(Liu et al., 2021a)</a>|
 
 
 ## Datasets
@@ -45,7 +45,7 @@ dummy
 </thead>
 <tbody>
   <tr>
-    <td>Spider (Yu et al., 2018c)</td>
+    <td>Spider <a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a></td>
     <td align='right'>10,181</td>
     <td align='right'>200</td>
     <td align='right'>138</td>
@@ -54,7 +54,7 @@ dummy
     <td>College courses, DabaseAnswers, WikiSQL</td>
   </tr>
   <tr>
-    <td>Spider-DK (Gan et al., 2021b)</td>
+    <td>Spider-DK <a href='https://doi.org/10.18653/v1/2021.emnlp-main.702' target='_blank'>(Gan et al., 2021b)</a></td>
     <td align='right'>535</td>
     <td align='right'>10</td>
     <td align='right'>-</td>
@@ -63,7 +63,7 @@ dummy
     <td>Spider dev set</td>
   </tr>
   <tr>
-    <td>Spiderutran (Zeng et al., 2020)</td>
+    <td>Spiderutran <a href='https://doi.org/10.18653/v1/2020.acl-demos.24' target='_blank'>(Zeng et al., 2020)</a></td>
     <td align='right'>15,023</td>
     <td align='right'>200</td>
     <td align='right'>138</td>
@@ -72,7 +72,7 @@ dummy
     <td>Spider + 5,330 untranslatable questions</td>
   </tr>
   <tr>
-    <td>Spider-L (Lei et al., 2020)</td>
+    <td>Spider-L <a href='https://doi.org/10.18653/v1/2020.emnlp-main.564' target='_blank'>(Lei et al., 2020)</a></td>
     <td align='right'>8,034</td>
     <td align='right'>160</td>
     <td align='right'>-</td>
@@ -81,7 +81,7 @@ dummy
     <td>Spider train/dev</td>
   </tr>
   <tr>
-    <td>SpiderSL (Taniguchi et al., 2021)</td>
+    <td>SpiderSL <a href='https://arxiv.org/abs/2102.01847' target='_blank'>(Taniguchi et al., 2021)</a></td>
     <td align='right'>1,034</td>
     <td align='right'>10</td>
     <td align='right'>-</td>
@@ -90,7 +90,7 @@ dummy
     <td>Spider dev set</td>
   </tr>
   <tr>
-    <td>Spider-Syn (Gan et al., 2021a)</td>
+    <td>Spider-Syn <a href='https://doi.org/10.18653/v1/2021.acl-long.195' target='_blank'>(Gan et al., 2021a)</a></td>
     <td align='right'>8,034</td>
     <td align='right'>160</td>
     <td align='right'>-</td>
@@ -99,7 +99,7 @@ dummy
     <td>Spider train/dev</td>
   </tr>
   <tr>
-    <td>WikiSQL (Zhong et al., 2017)</td>
+    <td>WikiSQL <a href='https://arxiv.org/abs/1709.00103' target='_blank'>(Zhong et al., 2017)</a></td>
     <td align='right'>80,654</td>
     <td align='right'>26,521</td>
     <td align='right'>-</td>
@@ -108,16 +108,16 @@ dummy
     <td>Wikipedia</td>
   </tr>
   <tr>
-    <td>Squall (Shi et al., 2020b)</td>
+    <td>Squall <a href='https://doi.org/10.18653/v1/2020.findings-emnlp.167' target='_blank'>(Shi et al., 2020b)</a></td>
     <td align='right'>11,468</td>
     <td align='right'>1,679</td>
     <td align='right'>-</td>
     <td align='right'>1</td>
     <td>Lexicon-level supervision</td>
-    <td>WikiTableQuestions (Pasupat and Liang, 2015)</td>
+    <td>WikiTableQuestions <a href='https://doi.org/10.3115/v1/P15-1142' target='_blank'>(Pasupat and Liang, 2015)</a></td>
   </tr>
   <tr>
-    <td>KaggleDBQA (Lee et al., 2021)</td>
+    <td>KaggleDBQA <a href='https://doi.org/10.18653/v1/2021.acl-long.176' target='_blank'>(Lee et al., 2021)</a></td>
     <td align='right'>272</td>
     <td align='right'>8</td>
     <td align='right'>8</td>
@@ -127,7 +127,7 @@ dummy
   </tr>
   <tr style="border-bottom: 1px solid #000;">
   <tr>
-    <td>ATIS (Price, 1990; Dahl et al., 1994)</td>
+    <td>ATIS <a href='https://aclanthology.org/H90-1020' target='_blank'>(Price, 1990)</a>, <a href='https://aclanthology.org/H94-1010' target='_blank'>(Dahl et al., 1994)</a></td>
     <td align='right'>5,280</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -136,7 +136,7 @@ dummy
     <td>FUght-booking</td>
   </tr>
   <tr>
-    <td>GeoQuery (Zelle and Mooney, 1996)</td>
+    <td>GeoQuery <a href='https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf' target='_blank'>(Zelle and Mooney, 1996)</a></td>
     <td align='right'>877</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -145,7 +145,7 @@ dummy
     <td>US geography</td>
   </tr>
   <tr>
-    <td>Scholar (Iyer et al., 2017)</td>
+    <td>Scholar <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a></td>
     <td align='right'>817</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -154,7 +154,7 @@ dummy
     <td>Academic publications</td>
   </tr>
   <tr>
-    <td>Academic (Li and Jagadish, 2014)</td>
+    <td>Academic <a href='https://www.vldb.org/pvldb/vol8/p73-li.pdf' target='_blank'>(Li and Jagadish, 2014)</a></td>
     <td align='right'>196</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -163,7 +163,7 @@ dummy
     <td>Microsoft Academic Search (MAS)</td>
   </tr>
   <tr>
-    <td>IMDB (Yaghmazadeh et al., 2017)</td>
+    <td>IMDB <a href='https://dl.acm.org/doi/10.1145/3133887' target='_blank'>(Yaghmazadeh et al., 2017)</a></td>
     <td align='right'>131</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -172,7 +172,7 @@ dummy
     <td>database Internet Movie Database</td>
   </tr>
   <tr>
-    <td>Yelp (Yaghmazadeh et al., 2017)</td>
+    <td>Yelp <a href='https://dl.acm.org/doi/10.1145/3133887' target='_blank'>(Yaghmazadeh et al., 2017)</a></td>
     <td align='right'>128</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -181,7 +181,7 @@ dummy
     <td>Yelp website</td>
   </tr>
   <tr>
-    <td>Advising (Finegan-Dollak et al., 2018)</td>
+    <td>Advising <a href='https://doi.org/10.18653/v1/P18-1033' target='_blank'>(Finegan-Dollak et al., 2018)</a></td>
     <td align='right'>3,898</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -190,7 +190,7 @@ dummy
     <td>University of Michigan course</td>
   </tr>
   <tr>
-    <td>Restaurants (Tang and Mooney, 2000) (Popescu et al., 2003)</td>
+    <td>Restaurants <a href='https://doi.org/10.3115/1117794.1117811' target='_blank'>(Tang and Mooney, 2000)</a> <a href='https://dl.acm.org/doi/10.1145/604045.604070' target='_blank'>(Popescu et al., 2003)</a></td>
     <td align='right'>378</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -199,7 +199,7 @@ dummy
     <td>information Restaurants</td>
   </tr>
   <tr>
-    <td>MIMICSQL (Wang et al., 2020d)</td>
+    <td>MIMICSQL <a href='https://doi.org/10.1145/3366423.3380120' target='_blank'>(Wang et al., 2020d)</a></td>
     <td align='right'>10,000</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -208,7 +208,7 @@ dummy
     <td>Healthcare domain</td>
   </tr>
   <tr>
-    <td>SEDE (Hazoom et al., 2021)</td>
+    <td>SEDE <a href='https://doi.org/10.18653/v1/2021.nlp4prog-1.9' target='_blank'>(Hazoom et al., 2021)</a></td>
     <td align='right'>12,023</td>
     <td align='right'>1</td>
     <td align='right'>1</td>
@@ -229,17 +229,17 @@ respectively.</td>
 ### Other relevant datasets
 
 * Chinest text-to-SQL: 
-  * CSpider (Min et al., 2019a)
-  * TableQA (Sun et al., 2020)
-  * DuSQL (Wang et al., 2020c)
-  * ESQL (Chen et al., 2021a)
-* Vietnamese text-to-SQL: ViText2SQL (Tuan Nguyen et al., 2020)
+  * CSpider <a href='https://doi.org/10.18653/v1/D19-1377' target='_blank'>(Min et al., 2019a)</a>
+  * TableQA <a href='https://arxiv.org/abs/2006.06434' target='_blank'>(Sun et al., 2020)</a>
+  * DuSQL <a href='https://doi.org/10.18653/v1/2020.emnlp-main.562' target='_blank'>(Wang et al., 2020c)</a>
+  * ESQL <a href='https://arxiv.org/abs/2109.05395' target='_blank'>(Chen et al., 2021a)</a>
+* Vietnamese text-to-SQL: ViText2SQL <a href='https://doi.org/10.18653/v1/2020.findings-emnlp.364' target='_blank'>(Tuan Nguyen et al., 2020)</a>
 * Portuguese text-to-SQL: (José and Cozman, 2021)
 * Multi-turn context-dependent text-to-SQL:
-  * ATIS (Price, 1990) (Dahl et al., 1994)
-  * Sparc (Yu et al., 2019b)
-  * CoSQL (Yu et al., 2019a)
-* Unanswerable questions: TriageSQL (Zhang et al., 2020)
+  * ATIS <a href='https://aclanthology.org/H90-1020' target='_blank'>(Price, 1990)</a> <a href='https://aclanthology.org/H94-1010' target='_blank'>(Dahl et al., 1994)</a>
+  * Sparc <a href='https://doi.org/10.18653/v1/P19-1443' target='_blank'>(Yu et al., 2019b)</a>
+  * CoSQL <a href='https://doi.org/10.18653/v1/D19-1204' target='_blank'>(Yu et al., 2019a)</a>
+* Unanswerable questions: TriageSQL <a href='https://arxiv.org/abs/2010.12634' target='_blank'>(Zhang et al., 2020)</a>
 
 
 ### Resources
@@ -259,22 +259,22 @@ respectively.</td>
 ### Data Augmentation
 
 * Typical effects:
-  * Handle complex or unseen questions (Zhong et al., 2020b; Wang et al., 2021b)
-  * Achieve state-of-the-art with less supervised data (Guo et al., 2018)
-  * Attain robustness towards different types of questions (Radhakrishnan et al., 2020)
+  * Handle complex or unseen questions <a href='https://doi.org/10.18653/v1/2020.emnlp-main.558' target='_blank'>(Zhong et al., 2020b)</a>, <a href='https://doi.org/10.18653/v1/2021.naacl-main.220' target='_blank'>(Wang et al., 2021b)</a>
+  * Achieve state-of-the-art with less supervised data <a href='https://doi.org/10.18653/v1/D18-1188' target='_blank'>(Guo et al., 2018)</a>
+  * Attain robustness towards different types of questions <a href='https://arxiv.org/abs/2010.09927' target='_blank'>(Radhakrishnan et al., 2020)</a>
 
 * Data generation methods:
-  * (Iyer et al., 2017)
-  * (Li et al., 2020a)
+  * <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a>
+  * <a href='https://arxiv.org/abs/2011.03836' target='_blank'>(Li et al., 2020a)</a>
 
 * Quality control of the generated data:
-  * (Zhong et al., 2020b)
-  * (Wu et al., 2021)
+  * <a href='https://doi.org/10.18653/v1/2020.emnlp-main.558' target='_blank'>(Zhong et al., 2020b)</a>
+  * <a href='https://doi.org/10.18653/v1/2021.emnlp-main.707' target='_blank'>(Wu et al., 2021)</a>
 
 * Diversify the generated data:
-  * (Guo et al., 2018)
-  * (Radhakrishnan et al., 2020)
-  * (Wang et al. 2021b)
+  * <a href='https://doi.org/10.18653/v1/D18-1188' target='_blank'>(Guo et al., 2018)</a>
+  * <a href='https://arxiv.org/abs/2010.09927' target='_blank'>(Radhakrishnan et al., 2020)</a>
+  * <a href='https://doi.org/10.18653/v1/2021.naacl-main.220' target='_blank'>(Wang et al., 2021b)</a>
 
 
 ### Encoding
@@ -291,98 +291,98 @@ respectively.</td>
 <tbody>
   <tr>
     <td class="tg-0pky">Encode token type</td>
-    <td class="tg-0pky">TypeSQL (Yu et al., 2018a)</td>
+    <td class="tg-0pky">TypeSQL <a href='https://doi.org/10.18653/v1/N18-2093' target='_blank'>(Yu et al., 2018a)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
     <td class="tg-0pky">Representing question meaning</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan=8>Graph-based</td>
-    <td class="tg-0pky">GNN (Bogin et al., 2019a)</td>
+    <td class="tg-0pky">GNN <a href='https://doi.org/10.18653/v1/P19-1448' target='_blank'>(Bogin et al., 2019a)</a></td>
     <td class="tg-dvpl">Spider</td>
     <td class="tg-0pky" rowspan=13>(1)    Representing question and DB schemas in a structured way (2)    Schema linking</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Global-GCN (Bogin et al., 2019b)</td>
+    <td class="tg-0pky">Global-GCN <a href='https://doi.org/10.18653/v1/D19-1378' target='_blank'>(Bogin et al., 2019b)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">IGSQL (Cai and Wan, 2020)</td>
+    <td class="tg-0pky">IGSQL <a href='https://doi.org/10.18653/v1/2020.emnlp-main.560' target='_blank'>(Cai and Wan, 2020)</a></td>
     <td class="tg-dvpl">Sparc, CoSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">RAT-SQL (Wang et al., 2020a)</td>
+    <td class="tg-0pky">RAT-SQL <a href='https://doi.org/10.18653/v1/2020.acl-main.677' target='_blank'>(Wang et al., 2020a)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">LEGSQL (Cao et al., 2021)</td>
+    <td class="tg-0pky">LEGSQL <a href='https://doi.org/10.18653/v1/2021.acl-long.198' target='_blank'>(Cao et al., 2021)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SADGA (Cai et al., 2021)</td>
+    <td class="tg-0pky">SADGA <a href='https://proceedings.neurips.cc/paper/2021/hash/3f1656d9668dffcf8119e3ecff873558-Abstract.html' target='_blank'>(Cai et al., 2021)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">ShawdowGNN (Chen et al., 2021b)</td>
+    <td class="tg-0pky">ShawdowGNN <a href='https://doi.org/10.18653/v1/2021.naacl-main.441' target='_blank'>(Chen et al., 2021b)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">S2SQL (Hui et al., 2022)</td>
+    <td class="tg-0pky">S2SQL <a href='https://arxiv.org/abs/2203.06958' target='_blank'>(Hui et al., 2022)</a></td>
     <td class="tg-dvpl">Spider, Spider-Syn</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan=5>Self-attention</td>
-    <td class="tg-0pky">X-SQL (He et al., 2019)</td>
+    <td class="tg-0pky">X-SQL <a href='https://arxiv.org/abs/1908.08113' target='_blank'>(He et al., 2019)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SQLova (Hwang et al., 2019)</td>
+    <td class="tg-0pky">SQLova <a href='https://arxiv.org/abs/1902.01069' target='_blank'>(Hwang et al., 2019)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">RAT-SQL (Wang et al., 2020a)</td>
+    <td class="tg-0pky">RAT-SQL <a href='https://doi.org/10.18653/v1/2020.acl-main.677' target='_blank'>(Wang et al., 2020a)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">DuoRAT (Scholak et al., 2021a)</td>
+    <td class="tg-0pky">DuoRAT <a href='https://doi.org/10.18653/v1/2021.naacl-main.103' target='_blank'>(Scholak et al., 2021a)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">UnifiedSKG (Xie et al., 2022)</td>
+    <td class="tg-0pky">UnifiedSKG <a href='https://arxiv.org/abs/2201.05966' target='_blank'>(Xie et al., 2022)</a></td>
     <td class="tg-dvpl">WikiSQL, Spider</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan=5>Adapt PLM</td>
-    <td class="tg-0pky">X-SQL (He et al., 2019)</td>
+    <td class="tg-0pky">X-SQL <a href='https://arxiv.org/abs/1908.08113' target='_blank'>(He et al., 2019)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
     <td class="tg-0pky" rowspan=8>Leveraging external data to represent question and DB schemas</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SQLova (Hwang et al., 2019)</td>
+    <td class="tg-0pky">SQLova <a href='https://arxiv.org/abs/1902.01069' target='_blank'>(Hwang et al., 2019)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Guo and Gao (2019)</td>
+    <td class="tg-0pky"><a href='https://arxiv.org/abs/1910.07179' target='_blank'>(Guo and Gao, 2019)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">HydraNet (Lyu et al., 2020)</td>
+    <td class="tg-0pky">HydraNet <a href='https://arxiv.org/abs/2008.04759' target='_blank'>(Lyu et al., 2020)</a></td>
     <td class="tg-dvpl">WikiSQL</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Liu et al. (2021b), etc</td>
+    <td class="tg-0pky"><a href='https://doi.org/10.18653/v1/2021.findings-acl.100' target='_blank'>(Liu et al., 2021b)</a>, etc</td>
     <td class="tg-dvpl">Spider-L, SQUALL</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan=3>Pre-training</td>
-    <td class="tg-0pky">TaBERT (Yin et al., 2020)</td>
+    <td class="tg-0pky">TaBERT <a href='https://doi.org/10.18653/v1/2020.acl-main.745' target='_blank'>(Yin et al., 2020)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">GraPPA (Yu et al., 2021)</td>
+    <td class="tg-0pky">GraPPA <a href='https://openreview.net/forum?id=kyaIeYj4zZ' target='_blank'>(Yu et al., 2021)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
-    <td class="tg-0pky">GAP (Shi et al., 2020a)</td>
+    <td class="tg-0pky">GAP <a href='https://arxiv.org/abs/2012.10309' target='_blank'>(Shi et al., 2020a)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
   <tr>
@@ -408,178 +408,178 @@ respectively.</td>
   <tr>
     <td rowspan=3>Tree-based</td>
     <td></td>
-    <td>Seq2Tree (Dong and Lapata, 2016)</td>
+    <td>Seq2Tree <a href='https://doi.org/10.18653/v1/P16-1004' target='_blank'>(Dong and Lapata, 2016)</a></td>
     <td>-</td>
     <td rowspan=8>Hierarchical decoding</td>
   </tr>
   <tr>
     <td></td>
-    <td>Seq2AST (Yin and Neubig, 2017)</td>
+    <td>Seq2AST <a href='https://doi.org/10.18653/v1/P17-1041' target='_blank'>(Yin and Neubig, 2017)</a></td>
     <td>-</td>
   </tr>
   <tr>
     <td></td>
-    <td>SyntaxSQLNet (Yu et al., 2018b)</td>
+    <td>SyntaxSQLNet <a href='https://doi.org/10.18653/v1/D18-1193' target='_blank'>(Yu et al., 2018b)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td rowspan=4>Sketch-based</td>
     <td></td>
-    <td>SQLNet (Xu et al., 2017)</td>
+    <td>SQLNet <a href='https://arxiv.org/abs/1711.04436' target='_blank'>(Xu et al., 2017)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td></td>
-    <td>(Dong and Lapata, 2018)</td>
+    <td><a href='https://doi.org/10.18653/v1/P18-1068' target='_blank'>(Dong and Lapata, 2018)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td></td>
-    <td>IRNet (Guo et al., 2019)</td>
+    <td>IRNet <a href='https://doi.org/10.18653/v1/P19-1444' target='_blank'>(Guo et al., 2019)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td></td>
-    <td>RYANSQL (Choi et al., 2021)</td>
+    <td>RYANSQL <a href='https://doi.org/10.1162/coli_a_00403' target='_blank'>(Choi et al., 2021)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td>Bottom-up</td>
     <td></td>
-    <td>SmBop (Rubin and Berant, 2021)</td>
+    <td>SmBop <a href='https://doi.org/10.18653/v1/2021.naacl-main.29' target='_blank'>(Rubin and Berant, 2021)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td rowspan=5>Attention Mechanism</td>
     <td rowspan="2">Attention</td>
-    <td>Seq2Tree (Dong and Lapata, 2016)</td>
+    <td>Seq2Tree <a href='https://doi.org/10.18653/v1/P16-1004' target='_blank'>(Dong and Lapata, 2016)</a></td>
     <td>-</td>
     <td rowspan=9>Synthesizing information for decoding</td>
   </tr>
   <tr>
-    <td>Seq2SQL (Zhong et al., 2017)</td>
+    <td>Seq2SQL <a href='https://arxiv.org/abs/1709.00103' target='_blank'>(Zhong et al., 2017)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td>Bi-attention</td>
-    <td>Guo and Gao (2018)</td>
+    <td><a href='https://arxiv.org/abs/1801.00076' target='_blank'>(Guo and Gao, 2018)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td>Structured attention</td>
-    <td>Wang et al. (2019)</td>
+    <td><a href='https://doi.org/10.18653/v1/D19-1391' target='_blank'>(Wang et al., 2019)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td>Relation-aware Self-attention</td>
-    <td>DuoRAT (Scholak et al., 2021a)</td>
+    <td>DuoRAT <a href='https://doi.org/10.18653/v1/2021.naacl-main.103' target='_blank'>(Scholak et al., 2021a)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td rowspan=4>Copy Mechanism</td>
     <td></td>
-    <td>Seq2AST (Yin and Neubig, 2017)</td>
+    <td>Seq2AST <a href='https://doi.org/10.18653/v1/P17-1041' target='_blank'>(Yin and Neubig, 2017)</a></td>
     <td>-</td>
   </tr>
   <tr>
     <td></td>
-    <td>Seq2SQL (Zhong et al., 2017)</td>
+    <td>Seq2SQL <a href='https://arxiv.org/abs/1709.00103' target='_blank'>(Zhong et al., 2017)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td></td>
-    <td>Wang et al. (2018a)</td>
+    <td><a href='https://www.microsoft.com/en-us/research/publication/pointing-sql-queries-text/' target='_blank'>(Wang et al., 2018a)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td></td>
-    <td>SeqGenSQL (Li et al., 2020a)</td>
+    <td>SeqGenSQL <a href='https://arxiv.org/abs/2011.03836' target='_blank'>(Li et al., 2020a)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td rowspan=6>Intermediate Representation</td>
     <td></td>
-    <td>IncSQL (Shi et al., 2018)</td>
+    <td>IncSQL <a href='https://arxiv.org/abs/1809.05054' target='_blank'>(Shi et al., 2018)</a></td>
     <td>WikiSQL</td>
     <td rowspan=6>Brdiging the gap between natural language and SQL query</td>
   </tr>
   <tr>
     <td></td>
-    <td>IRNet (Guo et al., 2019)</td>
+    <td>IRNet <a href='https://doi.org/10.18653/v1/P19-1444' target='_blank'>(Guo et al., 2019)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td></td>
-    <td>Suhr et al. (2020)</td>
+    <td><a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a></td>
     <td>Spider and others♠</td>
   </tr>
   <tr>
     <td></td>
-    <td>Herzig et al. (2021)</td>
+    <td><a href='https://arxiv.org/abs/2104.07478' target='_blank'>(Herzig et al., 2021)</a></td>
     <td>GeoQuery, ATIS, Scholar</td>
   </tr>
   <tr>
     <td></td>
-    <td>Gan et al. (2021c)</td>
+    <td><a href='https://doi.org/10.18653/v1/2021.findings-emnlp.174' target='_blank'>(Gan et al., 2021c)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td></td>
-    <td>Brunner and Stockinger (2021)</td>
+    <td><a href='https://arxiv.org/abs/2006.00888' target='_blank'>(Brunner and Stockinger, 2021)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td rowspan=11>Others</td>
     <td rowspan=2>Constrained decoding</td>
-    <td>UniSAr (Dou et al., 2022)</td>
+    <td>UniSAr <a href='https://arxiv.org/abs/2203.07781' target='_blank'>(Dou et al., 2022)</a></td>
     <td>WikiSQL, Spide and others♡</td>
     <td rowspan=4>Fine-grained decoding</td>
   </tr>
   <tr>
-    <td>PICARD (Scholak et al., 2021b)</td>
+    <td>PICARD <a href='https://doi.org/10.18653/v1/2021.emnlp-main.779' target='_blank'>(Scholak et al., 2021b)</a></td>
     <td>Spider, CoSQL</td>
   </tr>
   <tr>
     <td rowspan=2>Execution-guided</td>
-    <td>SQLova (Hwang et al., 2019)</td>
+    <td>SQLova <a href='https://arxiv.org/abs/1902.01069' target='_blank'>(Hwang et al., 2019)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
-    <td>Wang et al. (2018b)</td>
+    <td><a href='https://arxiv.org/abs/1807.03100' target='_blank'>(Wang et al., 2018b)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
     <td rowspan=2>Discriminative re-ranking</td>
-    <td>Global-GCN Bogin et al. (2019b)</td>
+    <td>Global-GCN <a href='https://doi.org/10.18653/v1/D19-1378' target='_blank'>(Bogin et al., 2019b)</a></td>
     <td>Spider</td>
     <td rowspan="2">SQL Ranking</td>
   </tr>
   <tr>
-    <td>Kelkar et al. (2020)</td>
+    <td><a href='https://arxiv.org/abs/2002.00557' target='_blank'>(Kelkar et al., 2020)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td rowspan=3>Separate submodule</td>
-    <td>SQLNet (Xu et al., 2017)</td>
+    <td>SQLNet <a href='https://arxiv.org/abs/1711.04436' target='_blank'>(Xu et al., 2017)</a></td>
     <td>WikiSQL</td>
     <td rowspan=4>Easier decoding</td>
   </tr>
   <tr>
-    <td>Guo and Gao (2018)</td>
+    <td><a href='https://arxiv.org/abs/1801.00076' target='_blank'>(Guo and Gao, 2018)</a></td>
     <td>WikiSQL</td>
   </tr>
   <tr>
-    <td>Lee (2019)</td>
+    <td><a href='https://doi.org/10.18653/v1/D19-1624' target='_blank'>(Lee, 2019)</a></td>
     <td>Spider</td>
   </tr>
   <tr>
     <td>BPE</td>
-    <td>Muller and Vlachos (2019)</td>
+    <td><a href='https://arxiv.org/abs/1910.08962' target='_blank'>(Muller and Vlachos, 2019)</a></td>
     <td>Advising, ATIS, GeoQuery</td>
   </tr>
   <tr>
     <td>Link gating</td>
-    <td>Chen et al. (2020b)</td>
+    <td><a href='https://doi.org/10.18653/v1/2020.coling-main.260' target='_blank'>(Chen et al., 2020b)</a></td>
     <td>Spider</td>
     <td>Synthesizing information for decoding</td>
   </tr>
@@ -590,36 +590,36 @@ respectively.</td>
 ### Learning Techniques
 
 * Fully supervised
-  * Active learning (Ni et al., 2020)
-  * Interactive/Imitation learning (Yao et al., 2019) (Yao et al., 2020)
-  * Meta-learning (Huang et al., 2018) (Wang et al., 2021a) (Chen et al., 2021a)
-  * Multi-task learning (Chang et al., 2020) (Xuan et al., 2021) (Hui et al., 2021b) (Shi et al., 2021) (McCann et al., 2018) (Xie et al., 2022)
+  * Active learning <a href='https://ojs.aaai.org//index.php/AAAI/article/view/6375' target='_blank'>(Ni et al., 2020)</a>
+  * Interactive/Imitation learning <a href='https://doi.org/10.18653/v1/D19-1547' target='_blank'>(Yao et al., 2019)</a> <a href='https://doi.org/10.18653/v1/2020.emnlp-main.559' target='_blank'>(Yao et al., 2020)</a>
+  * Meta-learning <a href='https://doi.org/10.18653/v1/N18-2115' target='_blank'>(Huang et al., 2018)</a> <a href='https://doi.org/10.18653/v1/2021.naacl-main.33' target='_blank'>(Wang et al., 2021a)</a> <a href='https://arxiv.org/abs/2109.05395' target='_blank'>(Chen et al., 2021a)</a>
+  * Multi-task learning <a href='https://arxiv.org/abs/1908.11052' target='_blank'>(Chang et al., 2020)</a> <a href='https://arxiv.org/abs/2105.07911' target='_blank'>(Xuan et al., 2021)</a> <a href='https://arxiv.org/abs/2103.04399' target='_blank'>(Hui et al., 2021b)</a> <a href='https://arxiv.org/abs/2106.09588' target='_blank'>(Shi et al., 2021)</a> <a href='https://arxiv.org/abs/1806.08730' target='_blank'>(McCann et al., 2018)</a> <a href='https://arxiv.org/abs/2201.05966' target='_blank'>(Xie et al., 2022)</a>
 
 * Weakly supervised
-  * Reinforcement learning (Zhong et al., 2017) (Liang et al., 2018)
-  * Meta-learning and Bayesian optimization (Agarwal et al., 2019)
-  * (Min et al., 2019b)
+  * Reinforcement learning <a href='https://arxiv.org/abs/1709.00103' target='_blank'>(Zhong et al., 2017)</a> <a href='https://proceedings.neurips.cc/paper/2018/hash/f4e369c0a468d3aeeda0593ba90b5e55-Abstract.html' target='_blank'>(Liang et al., 2018)</a>
+  * Meta-learning and Bayesian optimization <a href='http://proceedings.mlr.press/v97/agarwal19e.html' target='_blank'>(Agarwal et al., 2019)</a>
+  * <a href='https://doi.org/10.18653/v1/D19-1284' target='_blank'>(Min et al., 2019b)</a>
 
 
 ### Miscellaneous
 
 * DB linking:
-  * (Lin et al., 2020)
-  * (Ma et al., 2020)
+  * <a href='https://doi.org/10.18653/v1/2020.findings-emnlp.438' target='_blank'>(Lin et al., 2020)</a>
+  * <a href='https://doi.org/10.18653/v1/2020.emnlp-main.563' target='_blank'>(Ma et al., 2020)</a>
 * Model-wise:
-  * (Finegan-Dollak et al., 2018)
-  * (Shaw et al., 2021)
-  * (Yan et al., 2020)
-  * (Xu et al., 2021)
+  * <a href='https://doi.org/10.18653/v1/P18-1033' target='_blank'>(Finegan-Dollak et al., 2018)</a>
+  * <a href='https://doi.org/10.18653/v1/2021.acl-long.75' target='_blank'>(Shaw et al., 2021)</a>
+  * <a href='https://doi.org/10.18653/v1/2020.coling-main.31' target='_blank'>(Yan et al., 2020)</a>
+  * <a href='https://doi.org/10.18653/v1/2021.acl-long.163' target='_blank'>(Xu et al., 2021)</a>
 * SQL generation:
-  * (Shi et al., 2018)
-  * (Brunner and Stockinger, 2021)
+  * <a href='https://arxiv.org/abs/1809.05054' target='_blank'>(Shi et al., 2018)</a>
+  * <a href='https://arxiv.org/abs/2006.00888' target='_blank'>(Brunner and Stockinger, 2021)</a>
 
 For context-dependent text-to-SQL:
-* Turn-level encoder and copy mechanism (Suhr et al., 2018) (Zhang et al., 2019) (Wang et al., 2020b)
-* Constrained decoding (Wang et al., 2020b)
-* Dynamic memory decay mechanism (Hui et al., 2021a)
-* (Zheng et al., 2022)
+* Turn-level encoder and copy mechanism <a href='https://doi.org/10.18653/v1/N18-1203' target='_blank'>(Suhr et al., 2018)</a> <a href='https://doi.org/10.18653/v1/D19-1537' target='_blank'>(Zhang et al., 2019)</a> <a href='https://doi.org/10.18653/v1/2020.coling-main.33' target='_blank'>(Wang et al., 2020b)</a>
+* Constrained decoding <a href='https://doi.org/10.18653/v1/2020.coling-main.33' target='_blank'>(Wang et al., 2020b)</a>
+* Dynamic memory decay mechanism <a href='https://arxiv.org/abs/2101.01686' target='_blank'>(Hui et al., 2021a)</a>
+* <a href='https://arxiv.org/abs/2203.07376' target='_blank'>(Zheng et al., 2022)</a>
 
 
 ## Evaluation
@@ -662,10 +662,10 @@ For context-dependent text-to-SQL:
 </table>
 
 ### Evaluation Setup
-* Question split: split the question-SQL pairs randomly (Iyer et al., 2017).
-* SQL query split: no SQL query is allowed to appear in more than one set among the train, dev, and test sets (Finegan-Dollak et al., 2018)
-* Database split: databases in the test set do not appear in the training time (Yu et al., 2018c)
-* Others (Shaw et al., 2021) (Chang et al., 2020)
+* Question split: split the question-SQL pairs randomly <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a>.
+* SQL query split: no SQL query is allowed to appear in more than one set among the train, dev, and test sets <a href='https://doi.org/10.18653/v1/P18-1033' target='_blank'>(Finegan-Dollak et al., 2018)</a>
+* Database split: databases in the test set do not appear in the training time <a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a>
+* Others <a href='https://doi.org/10.18653/v1/2021.acl-long.75' target='_blank'>(Shaw et al., 2021)</a> <a href='https://arxiv.org/abs/1908.11052' target='_blank'>(Chang et al., 2020)</a>
 
 ## Discussion and Future Directions
 
@@ -696,7 +696,7 @@ For context-dependent text-to-SQL:
 The domain for Restaurant dataset is restaurant information, where questions are typically about food type, restaurant location, etc.
 
 There is a big difference in terms of how many tables a database has. For restaurants, there are 3
-tables in the database, while there are 32 tables in ATIS (Suhr et al., 2020).
+tables in the database, while there are 32 tables in ATIS <a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a>.
 
 <table>
 <thead>
@@ -776,7 +776,7 @@ In Restaurants dataset, when the user queries “restaurants”, by dataset conv
 
 ### Text-to-SQL Templates
 
-An example of the template for text-to-SQL pair used by (Iyer et al., 2017) is as follows:
+An example of the template for text-to-SQL pair used by <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a> is as follows:
 
 *Question template*: 
 ```
@@ -811,13 +811,13 @@ DATASET_TYPE ;
 ``` 
 , where they populate the slots in the templates with table and column names from the database schema, as well as join the corresponding tables accordingly.
 
-(Iyer et al., 2017) also uses PPDB (Ganitkevitch et al., 2013) to paraphrase the NL. An example of PPDB paraphrasing is `thrown into jail` and `imprisoned`.
+<a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a> also uses PPDB <a href='https://aclanthology.org/N13-1092' target='_blank'>(Ganitkevitch et al., 2013)</a> to paraphrase the NL. An example of PPDB paraphrasing is `thrown into jail` and `imprisoned`.
 
 [This Github Repo](https://github.com/jkkummerfeld/text2sql-data) also holds NL-SQL templates for Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp, where they mask the corresponding entities in the NL-SQL pairs.
 
 ### Complexity of NL-SQL pairs
 
-(Yu et al., 2018c) defines the SQL hardness as the number of SQL components. The SQL query is harder when it contains more SQL keywords such as `GROUP BY` and nested subqueries. Here are some examples from the original paper:
+<a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a> defines the SQL hardness as the number of SQL components. The SQL query is harder when it contains more SQL keywords such as `GROUP BY` and nested subqueries. Here are some examples from the original paper:
 
 *Easy*:
 ```sql
@@ -858,6 +858,6 @@ WHERE T2.language = "English"
 AND T2.is_official = "T") ;
 ```
 
-There is no qualitative measure of how hard the NL is. Intuitively, models’ performance can decrease when faced with longer questions from users. However, the information conveyed in longer sentences can be more complete, while there can be ambiguity in shorter sentences. Besides, there can be domain-specific phrases that confuse the model in both short and long utterances (Suhr et al., 2020). Thus, researchers need to consider various perspectives to determine the complexity of natural utterance.
+There is no qualitative measure of how hard the NL is. Intuitively, models’ performance can decrease when faced with longer questions from users. However, the information conveyed in longer sentences can be more complete, while there can be ambiguity in shorter sentences. Besides, there can be domain-specific phrases that confuse the model in both short and long utterances <a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a>. Thus, researchers need to consider various perspectives to determine the complexity of natural utterance.
 
 
