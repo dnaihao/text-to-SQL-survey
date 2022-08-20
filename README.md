@@ -1,6 +1,59 @@
-# Text-to-SQL Survey
-Survey about recent advances in text-to-SQL research. This page presents the content in our work [Recent Advances in Text-to-SQL:
-A Survey of What We Have and What We Expect](dummy.com)
+
+<center>
+		<span style="font-size:36px">Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect</span>
+		<table align=center width=600px>
+			<table align=center width=600px>
+				<tr>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://dnaihao.github.io">Naihao Deng</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en">Yulong Chen</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://frcchang.github.io">Yue Zhang</a></span>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<table align=center width=250px>
+				<tr>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></span><br>
+						</center>
+					</td>
+				</tr>
+			</table>
+		</table>
+	</center>
+
+
+<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
+		<tr>
+			<td>
+				Text-to-SQL has attracted attention from both the natural language processing and database communities because of its ability to convert the semantics in natural language into SQL queries and its practical application in building natural language interfaces to database systems.
+        <br>The major challenges in text-to-SQL lie in encoding the meaning of natural utterances, decoding to SQL queries, and translating the semantics between these two forms.
+        <br>These challenges have been addressed to different extents by the recent advances.
+        <br>However, there is still a lack of comprehensive surveys for this task.
+        <br>To this end, we review recent progress on text-to-SQL for datasets, methods, and evaluation and provide this systematic survey, addressing the aforementioned challenges and discussing potential future directions.
+        <br>We hope this survey can serve as quick access to existing work and motivate future research.
+			</td>
+		</tr>
+	</table>
+	<br>
+
 
 
 ## Citation
@@ -13,6 +66,25 @@ A Survey of What We Have and What We Expect
 ```
 dummy
 ```
+
+<hr>
+<center><h1>Talk</h1></center>
+<p align='center'>To Be Uploaded Soon...</p>
+<p align="center">
+<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+</p>
+<table align=center width=800px>
+		<br>
+		<tr>
+			<center>
+				<span style="font-size:28px"><a href=''>[Slides]</a>
+				</span>
+			</center>
+		</tr>
+	</table>
+	<hr>
+
+<center><h1>Survey Sketch</h1></center>
 
 ## Concept Diagram
 
@@ -860,4 +932,15 @@ AND T2.is_official = "T") ;
 
 There is no qualitative measure of how hard the NL is. Intuitively, models’ performance can decrease when faced with longer questions from users. However, the information conveyed in longer sentences can be more complete, while there can be ambiguity in shorter sentences. Besides, there can be domain-specific phrases that confuse the model in both short and long utterances <a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a>. Thus, researchers need to consider various perspectives to determine the complexity of natural utterance.
 
+
+<table align=center width=900px>
+		<tr>
+			<td width=400px>
+				<left>
+					<center><h1>Acknowledgements</h1></center>
+					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
+				</left>
+			</td>
+		</tr>
+</table>
 
