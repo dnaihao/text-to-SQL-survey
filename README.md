@@ -1,30 +1,30 @@
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
+<table align=center>
   <table align=center>
-    <table align=center>
-      <tr>
-        <td>
-            <span style="font-size:24px"><a href="https://dnaihao.github.io">Naihao Deng</a></span>   
-        </td>
-        <td>
-            <span style="font-size:24px"><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en">Yulong Chen</a></span>
-        </td>
-        <td>
-            <span style="font-size:24px"><a href="https://frcchang.github.io">Yue Zhang</a></span>
-        </td>
-      </tr>
-    </table>
-    <table align=center>
-      <tr>
-        <td>
-            <span style="font-size:24px"><a href=''>[Paper]</a></span>
-        </td>
-        <td>
-            <span style="font-size:24px"><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></span><br>
-        </td>
-      </tr>
-    </table>
+    <tr>
+      <td>
+          <span><a href="https://dnaihao.github.io"><h2>Naihao Deng</h2></a></span>   
+      </td>
+      <td>
+          <span><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en"><h2>Yulong Chen</h2></a></span>
+      </td>
+      <td>
+          <span><a href="https://frcchang.github.io"><h2>Yue Zhang</h2></a></span>
+      </td>
+    </tr>
   </table>
+  <table align=center>
+    <tr>
+      <td>
+          <span><a href=''><h2>[Paper]</h2></a></span>
+      </td>
+      <td>
+          <span><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'><h2>[GitHub]</h2></a></span>
+      </td>
+    </tr>
+  </table>
+</table>
 
 
 <table align=center width=850px>
