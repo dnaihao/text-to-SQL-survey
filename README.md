@@ -1,42 +1,30 @@
 
-<center>
-		<span style="font-size:36px">Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect</span>
-		<table align=center width=600px>
-			<table align=center width=600px>
-				<tr>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://dnaihao.github.io">Naihao Deng</a></span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en">Yulong Chen</a></span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px"><a href="https://frcchang.github.io">Yue Zhang</a></span>
-						</center>
-					</td>
-				</tr>
-			</table>
-			<table align=center width=250px>
-				<tr>
-					<td align=center width=120px>
-						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
-						</center>
-					</td>
-					<td align=center width=120px>
-						<center>
-							<span style="font-size:24px"><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></span><br>
-						</center>
-					</td>
-				</tr>
-			</table>
-		</table>
-	</center>
+# Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
+  <table>
+    <table>
+      <tr>
+        <td>
+            <span style="font-size:24px"><a href="https://dnaihao.github.io">Naihao Deng</a></span>   
+        </td>
+        <td>
+            <span style="font-size:24px"><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en">Yulong Chen</a></span>
+        </td>
+        <td>
+            <span style="font-size:24px"><a href="https://frcchang.github.io">Yue Zhang</a></span>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+            <span style="font-size:24px"><a href=''>[Paper]</a></span>
+        </td>
+        <td>
+            <span style="font-size:24px"><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></span><br>
+        </td>
+      </tr>
+    </table>
+  </table>
 
 
 <table align=center width=850px>
