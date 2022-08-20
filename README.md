@@ -747,7 +747,10 @@ Will undergrads be okay to take 581 ?
 
 *SQL query*:
 ```sql
-SELECT DISTINCT T1.ADVISORY_REQUIREMENT , T1.ENFORCED_REQUIREMENT , T1.NAME FROM COURSE AS T1 WHERE T1.DEPARTMENT = "EECS" AND T1.NUMBER = 581 ;
+SELECT DISTINCT T1.ADVISORY_REQUIREMENT ,
+T1.ENFORCED_REQUIREMENT , T1.NAME FROM
+COURSE AS T1 WHERE T1.DEPARTMENT =
+"EECS" AND T1.NUMBER = 581 ;
 ```
 
 In Advising dataset, Department “EECS” is considered as domain knowledge where “581” in the
@@ -762,7 +765,10 @@ Give me some restaurants in alameda ?
 
 *SQL query*:
 ```sql
-SELECT T1.HOUSE_NUMBER , T2.NAME FROM LOCATION AS T1 , RESTAURANT AS T2 WHERE T1.CITY_NAME = "alameda" AND T2.ID = T1.RESTAURANT_ID ;
+SELECT T1.HOUSE_NUMBER ,
+T2.NAME FROM LOCATION AS T1 , RESTAURANT
+AS T2 WHERE T1.CITY_NAME = "alameda"
+AND T2.ID = T1.RESTAURANT_ID ;
 ```
 
 In Restaurants dataset, when the user queries “restaurants”, by dataset convention, the corresponding SQL query returns the column “HOUSE_NUMBER” and “NAME”.
@@ -780,7 +786,10 @@ Get all <ENT1>.<NAME> having <ENT2>.<COL1>.<NAME> as <ENT2>.<COL1>.<TYPE>
 *SQL query template*:
 
 ```sql
-SELECT <ENT1>.<DEF> FROM JOIN_FROM(<ENT1>, <ENT2>) WHERE JOIN_WHERE(<ENT1>, <ENT2>) AND <ENT2>.<COL1> = <ENT2>.<COL1>.<TYPE> ;
+SELECT <ENT1>.<DEF> FROM JOIN_FROM(
+<ENT1>, <ENT2>) WHERE JOIN_WHERE(<ENT1>,
+<ENT2>) AND
+<ENT2>.<COL1> = <ENT2>.<COL1>.<TYPE> ;
 ```
 
 *Generated question*: 
@@ -790,7 +799,15 @@ Get all author having dataset as DATASET_TYPE
 
 *Generated SQL query*:
 ```sql
-SELECT author.authorId FROM author , writes , paper , paperDataset , dataset WHERE author. authorId = writes.authorId AND writes.paperId = paper.paperId AND paper.paperId = paperDataset.paperId AND paperDataset.datasetId = dataset. datasetId AND dataset.datasetName = DATASET_TYPE
+SELECT author.authorId
+FROM author , writes , paper ,
+paperDataset , dataset WHERE author.
+authorId = writes.authorId
+AND writes.paperId = paper.paperId
+AND paper.paperId = paperDataset.paperId
+AND paperDataset.datasetId = dataset.
+datasetId AND dataset.datasetName =
+DATASET_TYPE ;
 ``` 
 , where they populate the slots in the templates with table and column names from the database schema, as well as join the corresponding tables accordingly.
 
@@ -804,22 +821,41 @@ SELECT author.authorId FROM author , writes , paper , paperDataset , dataset WHE
 
 *Easy*:
 ```sql
-SELECT COUNT(*) FROM cars_data WHERE cylinders > 4
+SELECT COUNT(*)
+FROM cars_data
+WHERE cylinders > 4 ;
 ```
 
 *Medium*:
 ```sql
-SELECT T2.name, COUNT(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.stadium_id = T2.stadium_id GROUP BY T1.stadium_id
+SELECT T2.name, COUNT(*)
+FROM concert AS T1 JOIN stadium AS T2 ON
+T1.stadium_id = T2.stadium_id GROUP
+BY T1.stadium_id ;
 ```
 
 *Hard*:
 ```sql
-SELECT T1.country_name FROM countries AS T1 JOIN continents AS T2 ON T1.continent = T2.cont_id JOIN car_makers AS T3 ON T1.country_id = T3. country WHERE T2.continent = ’Europe’ GROUP BY T1.country_name HAVING COUNT(*) >= 3
+SELECT T1.country_name
+FROM countries AS T1 JOIN continents AS
+T2 ON T1.continent = T2.cont_id JOIN
+car_makers AS T3 ON T1.country_id = T3.
+country
+WHERE T2.continent = ’Europe’
+GROUP BY T1.country_name
+HAVING COUNT(*) >= 3 ;
 ```
 
 *Extra Hard*:
 ```sql
-SELECT AVG(life_expectancy) FROM country WHERE name NOT IN (SELECT T1.name FROM country AS T1 JOIN country_language AS T2 ON T1.code = T2.country_code WHERE T2.language = "English" AND T2.is_official = "T")
+SELECT AVG(life_expectancy) FROM country
+WHERE name NOT IN
+(SELECT T1.name
+FROM country AS T1 JOIN
+country_language AS T2
+ON T1.code = T2.country_code
+WHERE T2.language = "English"
+AND T2.is_official = "T") ;
 ```
 
 There is no qualitative measure of how hard the NL is. Intuitively, models’ performance can decrease when faced with longer questions from users. However, the information conveyed in longer sentences can be more complete, while there can be ambiguity in shorter sentences. Besides, there can be domain-specific phrases that confuse the model in both short and long utterances (Suhr et al., 2020). Thus, researchers need to consider various perspectives to determine the complexity of natural utterance.
