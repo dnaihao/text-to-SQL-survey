@@ -4,23 +4,23 @@
   <table align=center>
     <tr>
       <td>
-          <span><a href="https://dnaihao.github.io"><h2>Naihao Deng</h2></a></span>   
+          <h2><a href="https://dnaihao.github.io">Naihao Deng</a></h2>   
       </td>
       <td>
-          <span><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en"><h2>Yulong Chen</h2></a></span>
+          <h2><a href="https://scholar.google.com/citations?user=8P23zSkAAAAJ&hl=en">Yulong Chen</a></h2>
       </td>
       <td>
-          <span><a href="https://frcchang.github.io"><h2>Yue Zhang</h2></a></span>
+          <h2><a href="https://frcchang.github.io">Yue Zhang</a></h2>
       </td>
     </tr>
   </table>
   <table align=center>
     <tr>
       <td>
-          <span><a href=''><h2>[Paper]</h2></a></span>
+          <h2><a href=''>[Paper]</a></h2>
       </td>
       <td>
-          <span><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'><h2>[GitHub]</h2></a></span>
+          <h2><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></h2>
       </td>
     </tr>
   </table>
