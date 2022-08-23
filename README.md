@@ -52,7 +52,14 @@ If you would like to cite our work, please cite the following work:
 A Survey of What We Have and What We Expect
 
 ```
-dummy
+@misc{deng2022recent,
+      title={Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect}, 
+      author={Naihao Deng and Yulong Chen and Yue Zhang},
+      year={2022},
+      eprint={2208.10099},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 <h1>Survey Sketch</h1>
