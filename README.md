@@ -1,6 +1,6 @@
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
-<table align=center>
+<!-- <table align=center>
   <table align=center>
     <tr>
       <td>
@@ -24,7 +24,7 @@
       </td>
     </tr>
   </table>
-</table>
+</table> -->
 
 
 <table align=center width=850px>
@@ -40,7 +40,6 @@
 			</td>
 		</tr>
 	</table>
-	<br>
 
 
 
@@ -637,7 +636,9 @@ respectively.</td>
 </tbody>
 </table>
 
+
 ### Learning Techniques
+
 
 * Fully supervised
   * Active learning <a href='https://ojs.aaai.org//index.php/AAAI/article/view/6375' target='_blank'>(Ni et al., 2020)</a>
