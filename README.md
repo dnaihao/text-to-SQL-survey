@@ -1,6 +1,6 @@
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
-<!-- <table align=center>
+<table align=center>
   <table align=center>
     <tr>
       <td>
@@ -24,7 +24,7 @@
       </td>
     </tr>
   </table>
-</table> -->
+</table>
 
 
 <table align=center width=850px>
@@ -275,7 +275,9 @@ respectively.</td>
 </tbody>
 </table>
 
+
 ### Other relevant datasets
+
 
 * Chinest text-to-SQL: 
   * CSpider <a href='https://doi.org/10.18653/v1/D19-1377' target='_blank'>(Min et al., 2019a)</a>
@@ -305,7 +307,9 @@ respectively.</td>
 
 ## Methods
 
+
 ### Data Augmentation
+
 
 * Typical effects:
   * Handle complex or unseen questions <a href='https://doi.org/10.18653/v1/2020.emnlp-main.558' target='_blank'>(Zhong et al., 2020b)</a>, <a href='https://doi.org/10.18653/v1/2021.naacl-main.220' target='_blank'>(Wang et al., 2021b)</a>
@@ -327,6 +331,7 @@ respectively.</td>
 
 
 ### Encoding
+
 
 <table class="tg">
 <thead>
@@ -439,6 +444,7 @@ respectively.</td>
   </tr>
 </tbody>
 </table>
+
 
 ## Decoding
 
@@ -654,6 +660,7 @@ respectively.</td>
 
 ### Miscellaneous
 
+
 * DB linking:
   * <a href='https://doi.org/10.18653/v1/2020.findings-emnlp.438' target='_blank'>(Lin et al., 2020)</a>
   * <a href='https://doi.org/10.18653/v1/2020.emnlp-main.563' target='_blank'>(Ma et al., 2020)</a>
@@ -675,7 +682,9 @@ For context-dependent text-to-SQL:
 
 ## Evaluation
 
+
 ### Metrics
+
 
 <table>
 <thead>
@@ -712,13 +721,19 @@ For context-dependent text-to-SQL:
 </tbody>
 </table>
 
+
 ### Evaluation Setup
+
+
 * Question split: split the question-SQL pairs randomly <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a>.
 * SQL query split: no SQL query is allowed to appear in more than one set among the train, dev, and test sets <a href='https://doi.org/10.18653/v1/P18-1033' target='_blank'>(Finegan-Dollak et al., 2018)</a>
 * Database split: databases in the test set do not appear in the training time <a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a>
 * Others <a href='https://doi.org/10.18653/v1/2021.acl-long.75' target='_blank'>(Shaw et al., 2021)</a> <a href='https://arxiv.org/abs/1908.11052' target='_blank'>(Chang et al., 2020)</a>
 
+
 ## Discussion and Future Directions
+
+
 
 * Cross-domain text-to-SQL: incorporate domain knowledge to models trained on the existing datasets, and deploy such models efficiently on different domains.
 
@@ -748,6 +763,7 @@ The domain for Restaurant dataset is restaurant information, where questions are
 
 There is a big difference in terms of how many tables a database has. For restaurants, there are 3
 tables in the database, while there are 32 tables in ATIS <a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a>.
+
 
 <table>
 <thead>
@@ -789,7 +805,9 @@ tables in the database, while there are 32 tables in ATIS <a href='https://doi.o
 </tbody>
 </table>
 
+
 ### Domain Knowledge
+
 
 *Question*: 
 ```
@@ -807,7 +825,9 @@ COURSE AS T1 WHERE T1.DEPARTMENT =
 In Advising dataset, Department “EECS” is considered as domain knowledge where “581” in the
 utterance means a course in “EECS” department with course number “581”.
 
+
 ### Dataset Convention
+
 
 *Question*: 
 ```
@@ -826,6 +846,7 @@ In Restaurants dataset, when the user queries “restaurants”, by dataset conv
 
 
 ### Text-to-SQL Templates
+
 
 An example of the template for text-to-SQL pair used by <a href='https://doi.org/10.18653/v1/P17-1089' target='_blank'>(Iyer et al., 2017)</a> is as follows:
 
@@ -866,7 +887,9 @@ DATASET_TYPE ;
 
 [This Github Repo](https://github.com/jkkummerfeld/text2sql-data) also holds NL-SQL templates for Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp, where they mask the corresponding entities in the NL-SQL pairs.
 
+
 ### Complexity of NL-SQL pairs
+
 
 <a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a> defines the SQL hardness as the number of SQL components. The SQL query is harder when it contains more SQL keywords such as `GROUP BY` and nested subqueries. Here are some examples from the original paper:
 
