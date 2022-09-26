@@ -54,13 +54,17 @@ If you would like to cite our work, please cite the following work:
 A Survey of What We Have and What We Expect
 
 ```
-@misc{deng2022recent,
-      title={Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect}, 
-      author={Naihao Deng and Yulong Chen and Yue Zhang},
-      year={2022},
-      eprint={2208.10099},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{deng-etal-2022-recent-advances-in-text-to-sql,
+    title = "Recent Advances in Text-to-{SQL}: A Survey of What We Have and What We Expect",
+    author = "Deng, Naihao  and
+      Chen, Yulong  and
+      Zhang, Yue",
+    booktitle = "COLING",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/events/coling-2022/",
 }
 ```
 
