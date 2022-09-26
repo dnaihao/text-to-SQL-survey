@@ -17,10 +17,13 @@
   <table align=center>
     <tr>
       <td>
-          <h2><a href=''>[Paper]</a></h2>
+          <h2><a href='https://arxiv.org/pdf/2208.10099.pdf'>[Paper]</a></h2>
       </td>
       <td>
           <h2><a href='https://github.com/text-to-sql-survey-coling22/text-to-sql-survey-coling22.github.io'>[GitHub]</a></h2>
+      </td>
+      <td>
+          <h2><a href='https://www.youtube.com/watch?v=_yt5gOhbIL8'>[YouTube]</a> / <a href="https://www.bilibili.com/video/BV1At4y1w7NS/?spm_id_from=333.999.0.0&vd_source=d4c470c48fee3e10a914bbaaab58b9a4">[BiliBili]</a></h2>
       </td>
     </tr>
   </table>
