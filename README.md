@@ -91,8 +91,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <th>Datasets</th>
     <th>#Size</th>
-    <th>#DB</th>
     <th>#D</th>
+    <th>#DB</th>
     <th>#T/DB</th>
     <th>Issues addressed</th>
     <th>Sources for data</th>
@@ -102,8 +102,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Spider <a href='https://doi.org/10.18653/v1/D18-1425' target='_blank'>(Yu et al., 2018c)</a></td>
     <td align='right'>10,181</td>
-    <td align='right'>200</td>
     <td align='right'>138</td>
+    <td align='right'>200</td>
     <td align='right'>5.1</td>
     <td>Domain generalization</td>
     <td>College courses, DatabaseAnswers, WikiSQL</td>
@@ -111,8 +111,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Spider-DK <a href='https://doi.org/10.18653/v1/2021.emnlp-main.702' target='_blank'>(Gan et al., 2021b)</a></td>
     <td align='right'>535</td>
-    <td align='right'>10</td>
     <td align='right'>-</td>
+    <td align='right'>10</td>
     <td align='right'>4.8</td>
     <td>Domain knowledge</td>
     <td>Spider dev set</td>
@@ -120,8 +120,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Spider-tran <a href='https://doi.org/10.18653/v1/2020.acl-demos.24' target='_blank'>(Zeng et al., 2020)</a></td>
     <td align='right'>15,023</td>
-    <td align='right'>200</td>
     <td align='right'>138</td>
+    <td align='right'>200</td>
     <td align='right'>5.1</td>
     <td>Untranslatable questions</td>
     <td>Spider + 5,330 untranslatable questions</td>
@@ -129,8 +129,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Spider-L <a href='https://doi.org/10.18653/v1/2020.emnlp-main.564' target='_blank'>(Lei et al., 2020)</a></td>
     <td align='right'>8,034</td>
-    <td align='right'>160</td>
     <td align='right'>-</td>
+    <td align='right'>160</td>
     <td align='right'>5.1</td>
     <td>Schema linking</td>
     <td>Spider train/dev</td>
@@ -138,8 +138,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>SpiderSL <a href='https://arxiv.org/abs/2102.01847' target='_blank'>(Taniguchi et al., 2021)</a></td>
     <td align='right'>1,034</td>
-    <td align='right'>10</td>
     <td align='right'>-</td>
+    <td align='right'>10</td>
     <td align='right'>4.8</td>
     <td>Schema linking</td>
     <td>Spider dev set</td>
@@ -147,8 +147,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Spider-Syn <a href='https://doi.org/10.18653/v1/2021.acl-long.195' target='_blank'>(Gan et al., 2021a)</a></td>
     <td align='right'>8,034</td>
-    <td align='right'>160</td>
     <td align='right'>-</td>
+    <td align='right'>160</td>
     <td align='right'>5.1</td>
     <td>Robustness</td>
     <td>Spider train/dev</td>
@@ -156,8 +156,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>WikiSQL <a href='https://arxiv.org/abs/1709.00103' target='_blank'>(Zhong et al., 2017)</a></td>
     <td align='right'>80,654</td>
-    <td align='right'>26,521</td>
     <td align='right'>-</td>
+    <td align='right'>26,521</td>
     <td align='right'>1</td>
     <td>Data size</td>
     <td>Wikipedia</td>
@@ -165,8 +165,8 @@ A Survey of What We Have and What We Expect
   <tr>
     <td>Squall <a href='https://doi.org/10.18653/v1/2020.findings-emnlp.167' target='_blank'>(Shi et al., 2020b)</a></td>
     <td align='right'>11,468</td>
-    <td align='right'>1,679</td>
     <td align='right'>-</td>
+    <td align='right'>1,679</td>
     <td align='right'>1</td>
     <td>Lexicon-level supervision</td>
     <td>WikiTableQuestions <a href='https://doi.org/10.3115/v1/P15-1142' target='_blank'>(Pasupat and Liang, 2015)</a></td>
@@ -178,7 +178,7 @@ A Survey of What We Have and What We Expect
     <td align='right'>8</td>
     <td align='right'>2.3</td>
     <td>Domain generalization</td>
-    <td>Real web daabases</td>
+    <td>Real web databases</td>
   </tr>
   <tr style="border-bottom: 1px solid #000;">
   <tr>
