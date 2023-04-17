@@ -772,10 +772,9 @@ There is a big difference in terms of how many tables a database has. For restau
 tables in the database, while there are 32 tables in ATIS <a href='https://doi.org/10.18653/v1/2020.acl-main.742' target='_blank'>(Suhr et al., 2020)</a>.
 
 
-<table>
-<caption>
-Geography, one of the 3 tables in Restaurants database. * denotes the primary key of this table. We only include 3 rows for demonstration purpose.
-</caption>
+<fieldset>
+  <legend><strong>Geography, one of the 3 tables in Restaurants database. * denotes the primary key of this table. We only include 3 rows for demonstration purpose.</strong></legend>
+<table class="tg">
 <thead>
   <tr>
     <th>CITY.NAME*</th>
@@ -811,6 +810,7 @@ Geography, one of the 3 tables in Restaurants database. * denotes the primary ke
   </tr>
 </tbody>
 </table>
+</fieldset>
 
 
 ### Domain Knowledge
