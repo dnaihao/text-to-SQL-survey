@@ -106,7 +106,7 @@ A Survey of What We Have and What We Expect
     <td align='right'>138</td>
     <td align='right'>5.1</td>
     <td>Domain generalization</td>
-    <td>College courses, DabaseAnswers, WikiSQL</td>
+    <td>College courses, DatabaseAnswers, WikiSQL</td>
   </tr>
   <tr>
     <td>Spider-DK <a href='https://doi.org/10.18653/v1/2021.emnlp-main.702' target='_blank'>(Gan et al., 2021b)</a></td>
@@ -118,7 +118,7 @@ A Survey of What We Have and What We Expect
     <td>Spider dev set</td>
   </tr>
   <tr>
-    <td>Spiderutran <a href='https://doi.org/10.18653/v1/2020.acl-demos.24' target='_blank'>(Zeng et al., 2020)</a></td>
+    <td>Spider-tran <a href='https://doi.org/10.18653/v1/2020.acl-demos.24' target='_blank'>(Zeng et al., 2020)</a></td>
     <td align='right'>15,023</td>
     <td align='right'>200</td>
     <td align='right'>138</td>
@@ -132,7 +132,7 @@ A Survey of What We Have and What We Expect
     <td align='right'>160</td>
     <td align='right'>-</td>
     <td align='right'>5.1</td>
-    <td>Schema Unking</td>
+    <td>Schema linking</td>
     <td>Spider train/dev</td>
   </tr>
   <tr>
@@ -188,7 +188,7 @@ A Survey of What We Have and What We Expect
     <td align='right'>1</td>
     <td align='right'>32</td>
     <td>-</td>
-    <td>FUght-booking</td>
+    <td>Flight-booking</td>
   </tr>
   <tr>
     <td>GeoQuery <a href='https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf' target='_blank'>(Zelle and Mooney, 1996)</a></td>
@@ -301,7 +301,7 @@ respectively.</td>
 
 ### Resources
 
-* [This Github Repo](https://github.com/jkkummerfeld/text2sql-data) holds data for many of the single domain datasets including Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp; as well as cross-domain datasets including Spider and WikiSQL. The Github Repo is the official repo for [This paper](https://aclanthology.org/P18-1033/), and their methods of processding the data is described in the paper as well.
+* [This Github Repo](https://github.com/jkkummerfeld/text2sql-data) holds data for many of the single domain datasets including Academic, Advising, ATIS, Geography, IMDB, Restaurants, Scholar, Yelp; as well as cross-domain datasets including Spider and WikiSQL. The Github Repo is the official repo for [This paper](https://aclanthology.org/P18-1033/), and their methods of processing the data is described in the paper as well.
 
 * [The official Spider leaderboard](https://yale-lily.github.io/spider) shows the performance of models on Spider dev and the hidden test set.
 
@@ -562,7 +562,7 @@ respectively.</td>
     <td></td>
     <td>IncSQL <a href='https://arxiv.org/abs/1809.05054' target='_blank'>(Shi et al., 2018)</a></td>
     <td>WikiSQL</td>
-    <td rowspan=6>Brdiging the gap between natural language and SQL query</td>
+    <td rowspan=6>Bridging the gap between natural language and SQL query</td>
   </tr>
   <tr>
     <td></td>
@@ -593,7 +593,7 @@ respectively.</td>
     <td rowspan=11>Others</td>
     <td rowspan=2>Constrained decoding</td>
     <td>UniSAr <a href='https://arxiv.org/abs/2203.07781' target='_blank'>(Dou et al., 2022)</a></td>
-    <td>WikiSQL, Spide and others♡</td>
+    <td>WikiSQL, Spider and others♡</td>
     <td rowspan=4>Fine-grained decoding</td>
   </tr>
   <tr>
