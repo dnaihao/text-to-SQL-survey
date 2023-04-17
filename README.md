@@ -1,3 +1,10 @@
+<style>
+  caption {
+    border: 1px solid black;
+    padding: 5px;
+  }
+</style>
+
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
 <table align=center>
@@ -85,8 +92,14 @@ A Survey of What We Have and What We Expect
 
 ## Datasets
 
-
 <table>
+  <caption>
+    Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
+know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
+specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
+respectively.
+</caption>
 <thead>
   <tr>
     <th>Datasets</th>
@@ -271,13 +284,6 @@ A Survey of What We Have and What We Expect
     <td>SQL template diversity</td>
     <td>Stack Exchange</td>
   </tr>
-  <tr>
-    <td colspan=7 align='center'>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
-pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
-know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
-specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
-respectively.</td>
-  </tr>
 </tbody>
 </table>
 
@@ -340,6 +346,9 @@ respectively.</td>
 
 
 <table class="tg">
+<caption> 
+Methods used for encoding in text-to-SQL.
+</caption>
 <thead>
   <tr>
     <th class="tg-0pky">Methods</th>
@@ -445,9 +454,6 @@ respectively.</td>
     <td class="tg-0pky">GAP <a href='https://arxiv.org/abs/2012.10309' target='_blank'>(Shi et al., 2020a)</a></td>
     <td class="tg-dvpl">Spider</td>
   </tr>
-  <tr>
-    <td colspan=4 align='center'>Methods used for encoding in text-to-SQL.</td>
-  </tr>
 </tbody>
 </table>
 
@@ -456,6 +462,9 @@ respectively.</td>
 
 
 <table>
+<caption>
+Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.
+</caption>
 <thead>
   <tr>
     <th>Methods</th>
@@ -644,7 +653,6 @@ respectively.</td>
     <td>Spider</td>
     <td>Synthesizing information for decoding</td>
   </tr>
-  <tr><td colspan=5 align='center'>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</td></tr>
 </tbody>
 </table>
 
@@ -693,6 +701,9 @@ For context-dependent text-to-SQL:
 
 
 <table>
+<caption>
+The summary of metrics, datasets that use these metrics, and their potential error cases.
+</caption>
 <thead>
   <tr>
     <th>Metrics</th>
@@ -720,9 +731,6 @@ For context-dependent text-to-SQL:
     <td>Test Suite Accuracy (execution accuracy with generated databases)</td>
     <td>Spider, GeoQuery, etc</td>
     <td>False positive</td>
-  </tr>
-  <tr>
-    <td colspan=3 align='center'>The summary of metrics, datasets that use these metrics, and their potential error cases.</td>
   </tr>
 </tbody>
 </table>
@@ -772,6 +780,9 @@ tables in the database, while there are 32 tables in ATIS <a href='https://doi.o
 
 
 <table>
+<caption>
+Geography, one of the 3 tables in Restaurants database. * denotes the primary key of this table. We only include 3 rows for demonstration purpose.
+</caption>
 <thead>
   <tr>
     <th>CITY.NAME*</th>
@@ -804,9 +815,6 @@ tables in the database, while there are 32 tables in ATIS <a href='https://doi.o
     <td>...</td>
     <td>...</td>
     <td>...</td>
-  </tr>
-  <tr>
-    <td colspan=3>Geography, one of the 3 tables in Restaurants database. * denotes the primary key of this table. We only include 3 rows for demonstration purpose.</td>
   </tr>
 </tbody>
 </table>
