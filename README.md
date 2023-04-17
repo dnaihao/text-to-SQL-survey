@@ -1,11 +1,3 @@
-<style>
-  caption {
-    border: 3px solid white;
-    padding: 5px;
-    font-weight: bold;
-  }
-</style>
-
 
 # Recent Advances in Text-to-SQL:<br>A Survey of What We Have and What We Expect
 <table align=center>
@@ -92,15 +84,13 @@ A Survey of What We Have and What We Expect
 
 
 ## Datasets
-
-<table>
-  <caption>
-    Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
+<fieldset>
+  <legend><strong>Summarization for text-to-SQL datasets. #Size, #DB, #D, and #T/DB represent the number of question-SQL
 pairs, databases, domains, and tables per domain, respectively. We put “-” in the #D column because we do not
 know how many domains are in the Spider dev set and “-” in the Issues Addressed column because there is no
 specific issue addressed for the dataset. Datasets above and below the line are cross-domain and single-domain,
-respectively.
-</caption>
+respectively.</strong></legend>
+<table class="tg">
 <thead>
   <tr>
     <th>Datasets</th>
@@ -287,6 +277,7 @@ respectively.
   </tr>
 </tbody>
 </table>
+</fieldset>
 
 
 ### Other relevant datasets
@@ -345,11 +336,9 @@ respectively.
 
 ### Encoding
 
-
+<fieldset>
+  <legend><strong>Methods used for encoding in text-to-SQL.</strong></legend>
 <table class="tg">
-<caption> 
-Methods used for encoding in text-to-SQL.
-</caption>
 <thead>
   <tr>
     <th class="tg-0pky">Methods</th>
@@ -457,15 +446,14 @@ Methods used for encoding in text-to-SQL.
   </tr>
 </tbody>
 </table>
+</fieldset>
 
 
 ## Decoding
 
-
-<table>
-<caption>
-Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.
-</caption>
+<fieldset>
+  <legend><strong>Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuery, Yelp, IMDB, Scholar, Restaurants; ♡: TableQA DuSQL, CoSQL, Sparc, Chase.</strong></legend>
+<table class="tg">
 <thead>
   <tr>
     <th>Methods</th>
@@ -656,6 +644,7 @@ Methods used for decoding in text-to-SQL. ♠: Academic, Advising, ATIS, GeoQuer
   </tr>
 </tbody>
 </table>
+</fieldset>
 
 
 ### Learning Techniques
@@ -701,9 +690,11 @@ For context-dependent text-to-SQL:
 ### Metrics
 
 
-<table>
+<fieldset>
+  <legend><strong>The summary of metrics, datasets that use these metrics, and their potential error cases.
+</strong></legend>
+<table class="tg">
 <caption>
-The summary of metrics, datasets that use these metrics, and their potential error cases.
 </caption>
 <thead>
   <tr>
@@ -735,6 +726,7 @@ The summary of metrics, datasets that use these metrics, and their potential err
   </tr>
 </tbody>
 </table>
+</fieldset>
 
 
 ### Evaluation Setup
