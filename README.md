@@ -1,7 +1,8 @@
 <style>
   caption {
-    border: 1px solid black;
+    border: 3px solid white;
     padding: 5px;
+    font-weight: bold;
   }
 </style>
 
