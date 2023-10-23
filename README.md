@@ -29,6 +29,14 @@
   </table>
 </table>
 
+<table align=center width=850px>
+		<h1>News in Text-to-SQL</h1>
+		<tr>
+      <td> 2023 <td> <a href="https://bird-bench.github.io/">BIRD</a>, a new cross-domain text-to-SQL benchmarks in the era of LLMs.<td> <a href="https://arxiv.org/pdf/2305.03111.pdf">Paper</a>
+		</tr>
+    <tr>
+    </tr>
+	</table>
 
 <table align=center width=850px>
 		<h1>Abstract</h1>
